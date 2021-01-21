@@ -3,18 +3,17 @@
 
 ## 작성 규칙
 
-* 자세히 기록한다.
-* reference를 명시한다.
 * 다른 repository에 기록한 후 링크를 가져온다.
 * 더 많은 공유를 원하는 기록은 [블로그](https://nali.tistory.com/)에 포스팅한다.
 * 날짜도 함께 기록한다.
+* reference를 명시하고, 자료를 그대로 가져오지 않고 스스로 자세히 작성한다.
 
 ## 분류
+
 ### C++ algorithm
 
 ### Frontend
 ### Backend
-
 ### Android
 ### iOS
 
