@@ -8,15 +8,17 @@
 * 날짜도 함께 기록한다.
 * reference를 명시하고, 자료를 그대로 가져오지 않고 스스로 자세히 작성한다.
 
-## 분류
+## 언어 및 알고리즘
 
-### C++ algorithm
+### C++
+
+## 프로젝트
 
 ### Frontend
 ### Backend
 ### Android
 ### iOS
 
-### Tools
+## Tools
 
 * [gradle 설치 및 프로젝트 생성](https://github.com/namjunemy/TIL/blob/master/Tools/gradle_project_create_windows10_eclipse.md)
