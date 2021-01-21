@@ -1,5 +1,4 @@
 # Today I Learned
-[![Version](https://img.shields.io/badge/version-2017.8.30-red.svg)](./CHANGELOG)  [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](./LICENSE)  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/namjunemy/TIL)](https://hits.seeyoufarm.com/)
 
 [namjunemy](https://github.com/namjunemy/TIL))님의 Github TIL을 참고하였다.
 * 개발 경험을 기록한다.
