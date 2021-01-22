@@ -27,7 +27,6 @@
 ## 언어 및 알고리즘
 
 ### C++
-
 ---
 
 ## 프로젝트
@@ -51,7 +50,7 @@
 - [스프링 프레임워크 핵심 기술](https://github.com/namjunemy/TIL/blob/master/Spring/spring_framework_core.md)
 - [1. 스프링이란?](https://github.com/namjunemy/TIL/blob/master/Spring/what_is_spring.md)
 
-2. 강의 듣기 전 필수로 주말에 해야하는 것들 (이미 아는 것을 넘겨도 됩니다.)
+* [[2023.01.23 ~] 해야할 것]
     - 에디터는 vscode 추천 
         - [설치](https://webruden.tistory.com/212) 권장
         - [관련 영상](https://www.youtube.com/watch?v=iNXTXefTsrs)
@@ -61,5 +60,11 @@
         - 맥은 iterm2 [설치](https://www.youtube.com/watch?v=mpea_CtJWyI)
     - git, github 기초 ([관련 영상](https://www.youtube.com/watch?v=YFNQwo7iTNc))
         - 깃허브 [실습](https://www.youtube.com/watch?v=rhP5pseOJc0)
-
-* [gradle 설치 및 프로젝트 생성](https://github.com/namjunemy/TIL/blob/master/Tools/gradle_project_create_windows10_eclipse.md)
+    IDE[설명 영상](https://youtu.be/gxfixv1VOxY)
+- [팀 프로젝트 가이드라인](https://github.com/peterhyun1234/2021_winter_DJC/blob/main/week_1/files/team_project_guidelines.md) 제시
+- 다음 수업 이전에 과제 제출
+    - 공지는 따로 하겠음
+    - 팀 프로젝트 제안서
+        - [양식 참고](https://github.com/peterhyun1234/2021_winter_DJC/blob/main/week_1/files/team_project_proposal.md)
+    - 기업 타게팅 과제
+        - [양식 참고](https://github.com/peterhyun1234/2021_winter_DJC/blob/main/week_1/files/desired_enterprise_document.md)
