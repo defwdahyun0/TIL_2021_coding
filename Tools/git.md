@@ -1,0 +1,2 @@
+    - git, github 기초 ([관련 영상](https://www.youtube.com/watch?v=YFNQwo7iTNc))
+    - 깃허브 [실습](https://www.youtube.com/watch?v=rhP5pseOJc0)

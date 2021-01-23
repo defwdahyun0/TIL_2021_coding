@@ -56,16 +56,8 @@ gdb 설명: https://youtu.be/bWH-nL7v5F4
 ## Tools
 
 * [vscode](https://github.com/defwdahyun0/TIL/blob/main/Tools/vscode.md)
-    - [설치](https://webruden.tistory.com/212) 권장
-    - [관련 영상](https://www.youtube.com/watch?v=iNXTXefTsrs)
-* IDE [설명 영상](https://youtu.be/gxfixv1VOxY)
-
 * [git](https://github.com/defdahyun/TIL/Tools/git.md)  
-    - git, github 기초 ([관련 영상](https://www.youtube.com/watch?v=YFNQwo7iTNc))
-    - 깃허브 [실습](https://www.youtube.com/watch?v=rhP5pseOJc0)
-
 
 [해야할-것]
 문제 풀기 : https://www.acmicpc.net/group/practice/10008/3
-
 
