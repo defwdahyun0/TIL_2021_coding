@@ -45,7 +45,7 @@ gdb 설명: https://youtu.be/bWH-nL7v5F4
 ## CS
 
 ### OS(운영체제)
-#### Renux
+#### linux
 * [리눅스](https://github.com/defdahyun/TIL/CS/OS/linux/linux_base.md)
     - 리눅스 명령어 기초 및 실습 ([영상](https://www.youtube.com/watch?v=DkpmcTRGmt4))
     - 윈도우는 git-bash [설치](https://gabii.tistory.com/entry/Git-Git-Bash-219-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
