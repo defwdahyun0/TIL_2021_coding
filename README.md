@@ -66,6 +66,7 @@ gdb 설명: https://youtu.be/bWH-nL7v5F4
 
 
 [해야할-것]
+강의 듣기 : https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK
 문제 풀기 : https://www.acmicpc.net/group/practice/10008/3
 
 
