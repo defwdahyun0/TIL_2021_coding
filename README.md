@@ -38,6 +38,7 @@ gdb 설명: https://youtu.be/bWH-nL7v5F4
 
 ## 프로젝트
 ### Backend
+* [백엔드 기초 개념](나중에 채우기)
 
 
 ---
@@ -45,7 +46,7 @@ gdb 설명: https://youtu.be/bWH-nL7v5F4
 
 ### OS(운영체제)
 #### Renux
-* [리눅스](https://github.com/defdahyun/TIL/CS/OS/Renux/Renux_base.md)
+* [리눅스](https://github.com/defdahyun/TIL/CS/OS/linux/linux_base.md)
     - 리눅스 명령어 기초 및 실습 ([영상](https://www.youtube.com/watch?v=DkpmcTRGmt4))
     - 윈도우는 git-bash [설치](https://gabii.tistory.com/entry/Git-Git-Bash-219-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
     - 맥은 iterm2 [설치](https://www.youtube.com/watch?v=mpea_CtJWyI)
@@ -54,7 +55,7 @@ gdb 설명: https://youtu.be/bWH-nL7v5F4
 
 ## Tools
 
-* [vscode](https://github.com/defwdahyun0/TIL/tree/main/Tools)
+* [vscode](https://github.com/defwdahyun0/TIL/blob/main/Tools/vscode.md)
     - [설치](https://webruden.tistory.com/212) 권장
     - [관련 영상](https://www.youtube.com/watch?v=iNXTXefTsrs)
 * IDE [설명 영상](https://youtu.be/gxfixv1VOxY)
