@@ -18,9 +18,8 @@
 * 현재 repository에 기록한 후 링크를 가져온다.
 * 이론 위주로 작성하고 코드는 다른 repository에 작성한다.
 * 더 많은 공유를 원하는 기록은 [블로그](https://nali.tistory.com/)에 포스팅한다.
-* 날짜도 함께 기록한다.
+* 날짜는 .md 파일 안에 기록한다.
 * reference를 명시하고, 자료를 그대로 가져오지 않고 스스로 자세히 작성한다.
-
 
 ---
 
@@ -81,4 +80,16 @@ gcc 설명: https://www.youtube.com/watch?v=IX0TOFm5mUM
 vim 설명: https://www.youtube.com/watch?v=qn1soztN7k4
 gdb 설명: https://youtu.be/bWH-nL7v5F4
 
+문제 풀기 : https://www.acmicpc.net/group/practice/10008/3
+
+
 설명은 한번씩 들어보시면 좋습니다.
+보안의 문제, 필요없는 것까지 깔림(apt-get, yum)
+### 1. 리눅스와 친해지기
+### 2. cli, 컴파일 익숙해지기
+### 3. 에러 메시지 구글링, 구글링 실력
+
+ubuntu 18.04 설치
+용량은 넉넉한 게 좋음
+
+apt-get x 
