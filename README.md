@@ -28,7 +28,7 @@
 ## 언어 및 알고리즘
 ### C
 ### C++
-* [C++기초](https://github.com/defwdahyun0/TIL/blob/main/language/C%2B%2B/C%2B%2B_base.md)
+* [C++ 기초강의](https://github.com/defwdahyun0/TIL/blob/main/language/C%2B%2B/C%2B%2B_base.md)
 
 ---
 
@@ -38,13 +38,13 @@
 #### linux
 * [리눅스기초](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_base.md)
 * [리눅스c-coding](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_c_coding.md)
-* [리눅스-맥-설치](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_mac_install.md)
+* [리눅스 맥 설치](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_mac_install.md)
 
 ---
 ## CS
-* [CS-의미-및-중요성](https://github.com/defwdahyun0/TIL/blob/main/CS/CS.md)
+* [CS 의미와 중요성](https://github.com/defwdahyun0/TIL/blob/main/CS/CS.md)
 ### OS(운영체제)
-* [리눅스-기초](https://github.com/defwdahyun0/TIL/blob/main/CS/OS/linux.md)
+* [리눅스 기초](https://github.com/defwdahyun0/TIL/blob/main/CS/OS/linux.md)
 
 ---
 ## Tools
