@@ -17,7 +17,9 @@
 
 * 현재 repository에 기록한 후 링크를 가져온다.
 * 이론 위주로 작성하고 코드는 다른 repository에 작성한다.
-* 더 많은 공유를 원하는 기록은 [블로그](https://nali.tistory.com/)에 포스팅한다.
+* git에 정리를 끝낸 후 [블로그](https://nali.tistory.com/)에 포스팅한다.
+* 시작한 파일은 하루 안에 완성하는 것을 목표로 한다.
+* 비슷한 내용을 작성하게 될 때는 기존 파일을 수정하기보다는 새로 파일을 만들어 작성한다.
 * 날짜는 .md 파일 안에 기록한다.
 * reference를 명시하고, 자료를 그대로 가져오지 않고 스스로 자세히 작성한다.
 
@@ -27,12 +29,6 @@
 ### C
 ### C++
 * [C++강의] https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK
-맥(아니면 리눅스)에서 C++ 추천 실행 조합(컴파일러 동일 - g++)
-vscode(디버깅도 가능)
-맥을 잘 활용하고 싶다면: vim + gdb
-gcc 설명: https://www.youtube.com/watch?v=IX0TOFm5mUM
-vim 설명: https://www.youtube.com/watch?v=qn1soztN7k4
-gdb 설명: https://youtu.be/bWH-nL7v5F4
 
 ---
 
@@ -47,13 +43,18 @@ gdb 설명: https://youtu.be/bWH-nL7v5F4
 ### OS(운영체제)
 #### linux
 * [리눅스기초](https://github.com/defdahyun/TIL/CS/OS/linux/linux_base.md)
+* [리눅스c-coding](https://github.com/defdahyun/TIL/CS/OS/linux/linux_c_coding.md)
 ---
 
 ## Tools
 * [vscode](https://github.com/defwdahyun0/TIL/blob/main/Tools/vscode.md)
 * [git](https://github.com/defdahyun/TIL/Tools/git.md)  
 
-[해야할-것]
+## 관련 링크
+* [TIL](https://github.com/namjunemy/TIL)
+* [추천-책-정리](https://github.com/peterhyun1234/2021_winter_DJC/blob/main/week_1/files/recommended_books.md)
+
+
+[해야할것]
 강의 듣기 : https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK
 문제 풀기 : https://www.acmicpc.net/group/practice/10008/3
-
