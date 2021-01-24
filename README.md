@@ -27,6 +27,7 @@
 
 ## 언어 및 알고리즘
 ### C
+* [C언어 기초강의](https://github.com/defwdahyun0/TIL/blob/main/language/C/C_base.md)
 ### C++
 * [C++ 기초강의](https://github.com/defwdahyun0/TIL/blob/main/language/C%2B%2B/C%2B%2B_base.md)
 
@@ -35,7 +36,7 @@
 ## 프로젝트
 ### Backend
 * [백엔드 기초 개념](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/backend_base.md)
-#### linux
+### linux
 * [리눅스기초](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_base.md)
 * [리눅스c-coding](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_c_coding.md)
 * [리눅스 맥 설치](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_mac_install.md)
