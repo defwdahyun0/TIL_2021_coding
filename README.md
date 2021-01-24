@@ -28,24 +28,25 @@
 ## 언어 및 알고리즘
 ### C
 ### C++
-* [C++강의] https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK
+* [C++기초](https://github.com/defdahyun/TIL/language/_base.md)
 
 ---
 
 ## 프로젝트
 ### Backend
 * [백엔드 기초 개념](나중에 채우기)
-
-
----
-## CS
-
-### OS(운영체제)
 #### linux
 * [리눅스기초](https://github.com/defdahyun/TIL/CS/OS/linux/linux_base.md)
 * [리눅스c-coding](https://github.com/defdahyun/TIL/CS/OS/linux/linux_c_coding.md)
----
+* [리눅스-맥-설치](https://github.com/defdahyun/TIL/CS/OS/linux/linux_c_coding.md)
 
+---
+## CS
+* [CS-의미-및-중요성](https://github.com/defdahyun/TIL/CS/OS/linux/linux_base.md)
+### OS(운영체제)
+* [리눅스-기초](https://github.com/defdahyun/TIL/CS/OS/linux/linux_base.md)
+
+---
 ## Tools
 * [vscode](https://github.com/defwdahyun0/TIL/blob/main/Tools/vscode.md)
 * [git](https://github.com/defdahyun/TIL/Tools/git.md)  
