@@ -62,4 +62,4 @@
 * TIL 정리
 * [C++ 강의 듣기](https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK)
 * [문제 풀기](https://www.acmicpc.net/group/practice/10008/3)
-* [리눅스 설치]((https://velog.io/@younho9/Mac-%EB%B2%84%EC%B6%94%EC%96%BC%EB%B0%95%EC%8A%A4VirtualBox%EC%97%90-%EC%9A%B0%EB%B6%84%ED%88%ACUbuntu-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0))
+* [리눅스 설치](https://velog.io/@younho9/Mac-%EB%B2%84%EC%B6%94%EC%96%BC%EB%B0%95%EC%8A%A4VirtualBox%EC%97%90-%EC%9A%B0%EB%B6%84%ED%88%ACUbuntu-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
