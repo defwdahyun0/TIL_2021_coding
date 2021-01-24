@@ -50,11 +50,14 @@
 * [vscode](https://github.com/defwdahyun0/TIL/blob/main/Tools/vscode.md)
 * [git](https://github.com/defdahyun/TIL/Tools/git.md)  
 
+---
 ## 관련 링크
 * [TIL](https://github.com/namjunemy/TIL)
 * [추천-책-정리](https://github.com/peterhyun1234/2021_winter_DJC/blob/main/week_1/files/recommended_books.md)
 
-
 [해야할것]
+
 강의 듣기 : https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK
 문제 풀기 : https://www.acmicpc.net/group/practice/10008/3
+
+정보 : 자소설닷컴
