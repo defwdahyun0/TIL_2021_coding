@@ -60,8 +60,9 @@
 * [javascript 강의](https://opentutorials.org/course/743)
 * [node, express 강의1](https://opentutorials.org/course/3332)
 * [node, express 강의2](https://opentutorials.org/course/3370)
-
 * 강의는 빠르게 속독하고 기술에 대한 document를 참고하면서 실습
+* [알고리즘,자료구조 개념](https://ldgeao99.tistory.com/244)
+
 
 [해야할것]
 * TIL 정리
