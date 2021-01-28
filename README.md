@@ -67,3 +67,6 @@
 [해야할것]
 * TIL 정리
 * [C++ 강의 듣기(기초만)](https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK)
+* [javascript 강의](https://opentutorials.org/course/743)
+* [node, express 강의1](https://opentutorials.org/course/3332)
+* [node, express 강의2](https://opentutorials.org/course/3370)
