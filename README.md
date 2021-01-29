@@ -63,7 +63,6 @@
 * 강의는 빠르게 속독하고 기술에 대한 document를 참고하면서 실습
 * [알고리즘,자료구조 개념](https://ldgeao99.tistory.com/244)
 
-
 [해야할것]
 * TIL 정리
 * [C++ 강의 듣기(기초만)](https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK)
