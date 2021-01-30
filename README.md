@@ -41,6 +41,7 @@
 * [리눅스c-coding](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_c_coding.md)
 * [리눅스 맥 설치](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_mac_install.md)
 
+server
 ---
 ## CS
 * [CS 의미와 중요성](https://github.com/defwdahyun0/TIL/blob/main/CS/CS.md)
