@@ -18,31 +18,12 @@
 * 현재 repository에 기록한 후 링크를 가져온다.
 * 이론 위주로 작성하고 코드는 다른 repository에 작성한다.
 * git에 정리를 끝낸 후 [블로그](https://nali.tistory.com/)에 포스팅한다.
-* 시작한 파일은 하루 안에 완성하는 것을 목표로 한다.
+* 언어 공부 파일은 git에만 기록한다.
 * 비슷한 내용을 작성하게 될 때는 기존 파일을 수정하기보다는 새로 파일을 만들어 작성한다.
 * 날짜는 .md 파일 안에 기록한다.
 * reference를 명시하고, 자료를 그대로 가져오지 않고 스스로 자세히 작성한다.
 
 ---
-
-## 언어 및 알고리즘
-### javascript
-
-* 생활코딩 javascript
-    * [1. 언어소개]
-    * [2. 자바스크립트 기본]
-        * [실습방법과 실습환경]
-        * [숫자와 문자]
-    * [3. 함수지향]
-        * [유효범위]
-        * [값으로서의 함수와 콜백]
-    * [4. 객체지향]
-        * []
-    * [5. 패턴]
-    * [6. 마무리]
-
----
-
 ## 프로젝트
 ### Backend
 * [백엔드 기초 개념](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/backend_base.md)
@@ -51,10 +32,28 @@
 * [리눅스c-coding](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_c_coding.md)
 * [리눅스 맥 설치](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_mac_install.md)
 
-server
+---
+## 언어
+### javascript
+
+* 생활코딩 강의
+    * [1. 언어소개](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_intro.md)
+    * [2. 자바스크립트 기본]
+        * [실습방법과 실습환경]
+        * [숫자와 문자]
+    * [3. 함수지향]
+        * [유효범위]
+        * [값으로서의 함수와 콜백]
+    * [4. 객체지향]
+        * [객체지향 프로그래밍]
+    * [5. 패턴]
+    * [6. 마무리]
+
+---
+## 알고리즘
+
 ---
 ## CS
-* [CS 의미와 중요성](https://github.com/defwdahyun0/TIL/blob/main/CS/CS.md)
 ### OS(운영체제)
 * [리눅스 기초](https://github.com/defwdahyun0/TIL/blob/main/CS/OS/linux.md)
 
