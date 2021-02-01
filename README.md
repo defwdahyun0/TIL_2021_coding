@@ -65,5 +65,7 @@ server
 * [리액트 네이티브 강의 - 필요한 부분만 참고](https://nomadcoders.co/react-native-for-beginners#start)
 * [리액트 네이티브 강의 - 추천 강의](https://reactnative.dev/docs/components-and-apis)
 * [알고리즘,자료구조 개념](https://ldgeao99.tistory.com/244)
+* [C 기초 - 모두코딩](https://modoocode.com/231)
+* [C 기초 - 코딩도장](https://dojang.io/course/view.php?id=2)
 * [C++ 강의](https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK)
 강의는 빠르게 속독하고 기술에 대한 document를 참고하면서 실습
