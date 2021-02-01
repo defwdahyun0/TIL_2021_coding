@@ -11,7 +11,7 @@
 * [알고리즘](#알고리즘)
 * [CS](#CS)
 * [Tools](#Tools)
-* [관련링크](#관련링크)
+* [링크](#링크)
 
 ---
 
@@ -80,7 +80,7 @@
 * [git](https://github.com/defwdahyun0/TIL/blob/main/Tools/git.md)  
 
 ---
-## 관련 링크
+## 링크
 * [TIL](https://github.com/namjunemy/TIL)
 * [자소설 닷컴](https://jasoseol.com/)
 * [추천 책 정리](https://github.com/peterhyun1234/2021_winter_DJC/blob/main/week_1/files/recommended_books.md)
