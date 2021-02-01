@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8"/>
+    <title>NAVER</title>
+</head>
+<style>
+    mark{background:hotpink}
+</style>
+<body>
+안녕하세요
+</body>
+    <h1>NAVER</h1>
+    <h2>HTML</h2>
+    <h3>HTML 소개</h3>
+    <h4>문자</h4>
+    <h5>CSS</h5>
+    <h6>Hello world</h6>
+    <i>Hello world</i><br/>
+    <b>두꺼운 텍스트</b>
+    <p>not bold</p>
+    <p>you make me feel special</p>
+    <u>underline</u>
+    <sub>subscript</sub>
+    <sup>superscript</sup>
+    <strike>취소선긋고싶다</strike>
+    <em>강조</em>
+    <ruby>
+        泰<rt>클 태</rt>
+        永<rt>길 영</rt>
+    </ruby>
+    안녕하세요.<hr/>
+    <p>LED 소자에 빛을 비추면 반대로 LED 소자는<mark>발전기 처럼 전기를 생산</mark>합니다.</p>
+    지금은<time datetime="2020-03-08T11:29:05">2020년 03월 08일 11시 29분 05초</time>다.    
+    이 포스트의 발행일 : <time datetime="2020-03-08T11:29:05" pubdate="pubdate">2020년 03월 08일</time>다.
+    <blockquote cite="https://terms.naver.com/entry.nhn?docId=3609903&cid=58598&categoryId=59316"> <!--보이지는 않음, 웹봇에게 알려줌-->
+        딥러닝은 컴퓨터가 사람처럼 생각하고 배울 수 있도록 하는 기술을 뜻합니다. 많은 데이터를 분류해서 같은 집합들끼리 묶고 상하의 관계를 파악하는 기술이지요.
+        [네이버 지식백과] 딥러닝 [deep learning] (천재학습백과 초등 소프트웨어 용어사전)</blockquote>
+    <pre>안녕하세요.        여기는
+        에버디벨
+            입니다.
+         끝</pre>
+
+    <dt>애플</dt>
+    <dd>스티브잡스와 스티브워즈니악이 창업한 회사</dd>
+    <h2>리스트 만들기</h2><br />
+    <h3>번호가 없는 리스트</h3>
+    <ul>
+    <li>네이버</li>
+    <li>다음</li>
+    <li>네이트</li>
+    </ul>
+    <br />
+    <h3>번호가 있는 리스트</h3>
+    <ol>
+    <li>네이버</li>
+    <li>다음</li>
+    <li>네이트</li>
+    </ol>
+    <h2>하이퍼 링크</h2><br />
+    <ul>
+    <li><a href="http://www.naver.com"target="_blank">네이버</a></li>
+    <li><a href="http://www.daum.net">다음</a></li>
+    <li><a href="http://www.nate.com">네이트</a></li>
+    </ul>
+    <a href="http://www.everdevel.co.kr/material/images/main/happyCatHeader.png" download>이미지 다운로드<a></a>
+
+    <h1>아래의 링크를 클릭하여 이동하세요.</h1>
+    <h2>에버디벨 코딩 에디터에서 실행한 경우 상단의 새창열기를 실행 후 클릭</h2>
+    <a href="https://www.naver.com/" target="_blank">naver (새창에서 열기)</a>
+    <a href="https://www.google.com/" target="_self">google (현재창에서 열기)</a>
+    <a href="https://www.everdevel.com/" target="_parent">everdevel (부모창에서 열기)</a>
+    <a href="https://www.tomodevel.jp/" target="_top">tomodevel (가장 처음창에서 열기)</a>
+
+    <a title="토모디벨 (에버디벨 일본어 버젼)" href="tomodevel.jp">tomodevel.jp</a>
+    <a ping="데이터를 전송할 주소와 데이터" title="링크 설명" href="주소">링크표시명<a> 
+    <img src="https://www.everdevel.com/material/images/HTML/asimo.png" width="500" height="500" alt="아시모 사진" />
+
+    <a href='http://mp17_2.blog.me' target='_blank'>
+        <img src='https://www.everdevel.com/material/images/HTML/asimo.png' alt='machine' />
+    </a>
+
+    <table border="1" bgcolor="pink">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+    </table>
+
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post">
+        <input type='text' name='userId' value='everdevel' />
+
+
+    </form>
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post">
+            <input type='email' name='userEmail' />
+            <input type='submit' value='전송' />
+    </form>
+
+
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post">
+        <input type='search' name='searchKeyword' />
+    </form>
+
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post">
+        <input type='number' name='userPhoneNumber' pattern='\d*' />
+    </form>
+
+
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post">
+        <input type='number' name='' step='3'/>
+        <br><br>
+        <input type='number' name='' step='5'/>
+        <br><br>
+        <input type='number' name='' step='10'/>
+    </form>
+
+    <!--테이블 만들기는 나중에 사이트 참고-->
+
+<!--  h태그 안의 숫자의 크기가 클수록 사이즈는 작아진다.  
+    i태그의 i는 이탤릭을 의미     
+    b태그 bold
+    ptag paragraph(문장)
+    utag underline 
+    subtag subscript(아래첨자)
+    suptag supscript(위첨자)
+    <br /> br태그 줄바꿈
+    <hr /> hr태그 밑줄긋기
+    mark태그는 문장에서 특정 영역을 강조
+    pre태그는 내용을 입력한 그대로 표시
+    용어의 뜻을 정리하는 목록을 표시할 때는 dl, dt, dd 태그를 사용합니다.dt태그는 용어의 제목, dd태그는 용어의 뜻을 입력합니다.
+    리스트태그 링크태그
+    a태크 <a href="이동할 주소 입력">링크이름<a>
+        <a href="다운로드할 파일 경로와 파일명 입력" download>링크이름<a>
+            새창이 열리고 그곳에서 원하는 페이지가 나오게 하는 방법을 알아봅시다.
+바로 a태그 안에 target="_blank"
+<a href="이동할 주소 입력" target="target속성의 값">링크이름<a>
+_self는 현재창에서 이동하는것입니다. 즉 target속성을 지정하지 않은것과 같아요.
+_blank는 새창으로 이동하는것입니다.
+_parent는 이름만 봐도 살짝은 예상은 가시죠?
+웹브라우저 창이 여러개 떠 있을 때 현재 페이지를 연 부모 창에서 클릭한 링크가 열립니다.
+_top은 현재 열려있는 웹브라우저 창 중 가장 처음뜬 창에서 클릭한 링크가 열립니
+namve 속성 사용 방법
+<a name="적당한 이름">여리로와<a>
+<a href="#here">거기로 갈게<a>
+title 속성 사용 방법
+<a title="링크 설명",href="주소">링크표시명<a>
+ping 데이터 속성
+<a ping="데이터를 전송할 주소와 데이터" title="링크 설명" href="주소">링크표시명<a> ping은 이해 잘 안된당
+ping 속성으로 데이터 전송
+img태그
+<img src="이미지 주소" alt="이미지 설명" />
+가로 길이는 width="숫자(단위는 픽셀)"
+세로 길이는 height="숫자(단위는 픽셀)" 입니다.
+<table>                <-- 테이블 태그의 시작
+    <tr>               <-- 줄(열)의 시작
+        <td>A          <-- 칸(행)의 시작
+        </td>		   <-- 칸(행)의 끝
+    </tr> 			   <-- 줄(열)의 끝
+</table>               <-- 테이블 태그의 끝
+
+아이프레임은 웹브라우져에 다른 사이트를 일정공간에 보이게 해줍니다.
+<iframe src="링크할 주소"></iframe>
+ input태그는 type속성의 값에 따라 여러 기능을 수행
+<input type='type 속성의 값' name='값' value='값' />
+
+
+<input type='email' name='userEmail' />
+<input type='search' name='searchKeyword' />
+
+
+
+https://writeline-codename.tistory.com/entry/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%A9%94%EC%9D%B8%EC%9D%84-%EB%94%B0%EB%9D%BC-%EB%A7%8C%EB%93%A4%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-HTML-CSS%EC%A0%9C%EB%A1%9C%EC%B4%88TV
+-->
+<iframe src="https://www.everdevel.com" style="width:90%" height="500" scrolling="auto">
+</iframe>
+    
+    
+    </html>
+
