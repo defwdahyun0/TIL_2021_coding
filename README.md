@@ -26,10 +26,20 @@
 ---
 
 ## 언어 및 알고리즘
-### C
-* [C언어 기초강의](https://github.com/defwdahyun0/TIL/blob/main/language/C/C_base.md)
-### C++
-* [C++ 기초강의](https://github.com/defwdahyun0/TIL/blob/main/language/C%2B%2B/C%2B%2B_base.md)
+### javascript
+
+* 생활코딩 javascript
+    * [1. 언어소개]
+    * [2. 자바스크립트 기본]
+        * [실습방법과 실습환경]
+        * [숫자와 문자]
+    * [3. 함수지향]
+        * [유효범위]
+        * [값으로서의 함수와 콜백]
+    * [4. 객체지향]
+        * []
+    * [5. 패턴]
+    * [6. 마무리]
 
 ---
 

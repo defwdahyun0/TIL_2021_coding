@@ -1,1 +1,0 @@
-[C++강의] https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK
