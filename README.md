@@ -61,12 +61,9 @@ server
 * [javascript 강의](https://opentutorials.org/course/743)
 * [node, express 강의1](https://opentutorials.org/course/3332)
 * [node, express 강의2](https://opentutorials.org/course/3370)
-* 강의는 빠르게 속독하고 기술에 대한 document를 참고하면서 실습
+* [리액트 네이티브 강의- long](https://www.youtube.com/watch?v=9xzmAXbesaY)
+* [리액트 네이티브 강의 - 필요한 부분만 참고](https://nomadcoders.co/react-native-for-beginners#start)
+* [리액트 네이티브 강의 - 추천 강의](https://reactnative.dev/docs/components-and-apis)
 * [알고리즘,자료구조 개념](https://ldgeao99.tistory.com/244)
-
-[해야할것]
-* TIL 정리
-* [C++ 강의 듣기(기초만)](https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK)
-* [javascript 강의](https://opentutorials.org/course/743)
-* [node, express 강의1](https://opentutorials.org/course/3332)
-* [node, express 강의2](https://opentutorials.org/course/3370)
+* [C++ 강의](https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK)
+강의는 빠르게 속독하고 기술에 대한 document를 참고하면서 실습
