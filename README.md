@@ -68,4 +68,5 @@ server
 * [C 기초 - 모두코딩](https://modoocode.com/231)
 * [C 기초 - 코딩도장](https://dojang.io/course/view.php?id=2)
 * [C++ 강의](https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK)
+<br>
 강의는 빠르게 속독하고 기술에 대한 document를 참고하면서 실습
