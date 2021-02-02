@@ -4,13 +4,13 @@
 웹브라우저에게 코드를 통해 명령을 한다.
 아래는 예시코드이다.
 
-    ```js
-  <html>
-  <body>
-  <input type="button" onclick="alert('Hello world')" value="Hello world" />
-  </body>
-  </html>
-    ```
+```js
+<html>
+<body>
+<input type="button" onclick="alert('Hello world')" value="Hello world" />
+</body>
+</html>
+```
 
 위 코드는 브라우저에서 onclick을 했을 때 경고창을 뜨게 한다.
 클릭을 통해 웹브라우저를 프로그래밍적으로 제어하는 것이다.
@@ -33,9 +33,9 @@ javascipt는 웹브라우저를 제어하기 위해 고안이 됐다.
 js가 웹서버에서도 사용할 수 있도록 개발된 것이 node.js이다.
 즉, js는 웹브라우저,웹서버에서 모두 통일해서 사용할 수 있다.
 
-    ```js
-    node nodejs.js
-    ```
+```js
+node nodejs.js
+```
 웹 전체에서 javascript의 영향은 더 커지고 있다.
 
 ## 탈웹
@@ -43,11 +43,11 @@ js가 웹서버에서도 사용할 수 있도록 개발된 것이 node.js이다.
 도구 - 스크립트 편집기 - 빈프로젝트
 <br>
 
-    ```js
-  function onOpen(){
-    var name = Browser.msgBox('Hello world');
-  };
-    ```
+```js
+function onOpen(){
+var name = Browser.msgBox('Hello world');
+};
+```
 프로젝트를 저장하고, 스프레드 시트 이름도 동일 이름으로 저장하면 대화상자가 뜬다.
 <br>
 Hello world가 google scipt가 실행됐을 때 실행된다.
@@ -82,9 +82,7 @@ js는 탈웹브라우저, 탈웹.
 ## 사용자
 사용자가 웹브라우저, node.js, SpreadSheet를 사용하는 것은 버튼을 누르는 것과 같다. 개발자는 버튼이 아니라 CODE를 입력하는 점에서 일반 사용자와 다르다.
 
-<br>
-<br>
-<br>
+---
 
 ## JavaScript
 JavaScript는 웹페이지를 동적으로, 프로그래밍적으로 제어하기 위해서 고안된 언어다. 그렇기 때문에 오늘날 가장 중요한 플랫폼이라고 할 수 있는 웹브라우저에서 유일하게 사용할 수 있는 프로그래밍 언어이다. 최근에는 HTML5의 적용이 가속화되면서 지금까지 모바일 환경에서 네이티브 앱(안드로이드, IOS)으로 구현해왔던 기능이 웹에서도 대부분 구현할 수 있게 되고 있다. 웹이 크로스플랫폼이라는 점, 검색 가능하다는 점, 네이티브 디바이스를 제어할 수 있는 하드브리드 시스템(phonegap 등)이 존재한다는 점에서 웹의 중요함은 더욱 확대될 전망이다. 자연스럽게 웹에서 구동되는 유일한 언어인 JavaScript의 중요함도 점점 커질 것으로 예상된다.
