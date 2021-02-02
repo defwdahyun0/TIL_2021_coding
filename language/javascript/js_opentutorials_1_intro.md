@@ -20,13 +20,11 @@
 js는 웹서버를 동작하기 위한 도구로도 사용된다.
 그 대표적인 기술이 node.js이다.
 
-<br>
-웹서버 <- 웹 : 요청,응답-> 웹브라우저
+웹서버 <- 웹 : 요청,응답-> 웹브라우저<br>
 <br>
 
 javascipt는 웹브라우저를 제어하기 위해 고안이 됐다.
-그러나 많은 사람들이 사용하면서 기술이 발전하면서, 웹서버에서도 동작하는 기술도 만들어졌다 : PHP,JAVA,PYTHON....
-<br>
+그러나 많은 사람들이 사용하면서 기술이 발전하면서, 웹서버에서도 동작하는 기술도 만들어졌다 : PHP,JAVA,PYTHON...<br>
 웹브라우저에 주소를 입력하면, 주소에 해당하는 컴퓨터를 찾아서, 그 컴퓨터에게 웹브라우저가 요청을 하면 사용자에 입력한 주소에 해당하는 웹서버는 요청한 정보를 찾아서 웹브라우저에게 응답한다.
 <br>
 서버에 존재하면서 웹브라우저에 응답하기 위한 정보를 프로그래밍적으로 생성해주는 기술이 php,java,python이다.
@@ -41,15 +39,13 @@ node nodejs.js
 ## 탈웹
 ### Google Apps Script
 도구 - 스크립트 편집기 - 빈프로젝트
-<br>
 
 ```js
 function onOpen(){
 var name = Browser.msgBox('Hello world');
 };
 ```
-프로젝트를 저장하고, 스프레드 시트 이름도 동일 이름으로 저장하면 대화상자가 뜬다.
-<br>
+프로젝트를 저장하고, 스프레드 시트 이름도 동일 이름으로 저장하면 대화상자가 뜬다.<br>
 Hello world가 google scipt가 실행됐을 때 실행된다.
 
 **js는 단순히 웹브라우저만을 제어하는 것이 아니라 여러 분야에서 사용 가능하다**
@@ -74,9 +70,9 @@ js는 탈웹브라우저, 탈웹.
 사용자 - javascipt : ~('Hello world'); -> alert : 웹브라우저, write : node.js, msgBox : SpreadSheet
 <br>
 언어의 문법을 이해해서 써야한다. 
-
-### 웹브라우저, node.js, SpreadSheet는 **환경**이다.
-
+<br>
+웹브라우저, node.js, SpreadSheet는 **환경**이다.
+<br>
 ~에 웹브라우저에서는 alert, node.js는 write,SpreadSheet에서는 MsgBox라고 써야한다.
 
 ## 사용자
