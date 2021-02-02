@@ -147,6 +147,8 @@ http://opentutorials.org/course/50
 JavaScript 사전
 http://www.html5rocks.com/ko/
 
+***
+
 ## 마무리
 
 * javascipt 언어의 중요성을 알게되었다.
