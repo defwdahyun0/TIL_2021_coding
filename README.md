@@ -97,9 +97,9 @@
 ### React Native
 
 * 노마드코더 강의 React Native로 날씨앱 만들기
- * [0. INTRODUCTION]
- * [1. LOGIC]
- * [2. STYLES]
+    * [0. INTRODUCTION]
+    * [1. LOGIC]
+    * [2. STYLES]
 
 ---
 ## 알고리즘
