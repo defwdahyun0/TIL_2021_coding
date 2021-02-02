@@ -106,31 +106,31 @@ ECMAScript는 표준화 기구인 Ecma International에 의해서 관리되는 �
   * 생활코딩 CSS 수업, CSS 사전을 참고한다.
 
 ## JavaScript로 할 수 있는 일들
-웹페이지 스크립팅 - DOM
-서버 측 스크립팅 - node.js
-브라우저 확장기능
-Google Chrome extensions
-Opera extensions
-Apple Safari 5 extensions
-Apple Dashboard Widgets
-Microsoft Gadgets
-Yahoo! Widgets
-Google Desktop Gadgets
-Serence Klipfolio
-Adobe PDF
-Tools in the Adobe Creative Suite,
-Photoshop
-Illustrator
-Dreamweaver
-InDesign
-OpenOffice.org
-Unity 게임 엔진
-Google Apps Script
-Google Spreadsheets
-Google Sites
-채팅 시스템
-ChatZilla
-XChat
+* 웹페이지 스크립팅 - DOM
+* 서버 측 스크립팅 - node.js
+* 브라우저 확장기능
+  * Google Chrome extensions
+  * Opera extensions
+  * Apple Safari 5 extensions
+  * Apple Dashboard Widgets
+  * Microsoft Gadgets
+  * Yahoo! Widgets
+  * Google Desktop Gadgets
+  * Serence Klipfolio
+* Adobe PDF
+* Tools in the Adobe Creative Suite,
+  * Photoshop
+  * Illustrator
+  * Dreamweaver
+  * InDesign
+* OpenOffice.org
+* Unity 게임 엔진
+* Google Apps Script
+  * Google Spreadsheets
+  * Google Sites
+* 채팅 시스템
+  * ChatZilla
+  * XChat
 
 ## JavaScript에 영향을 준 언어
  * Java : 기본적인 문법
