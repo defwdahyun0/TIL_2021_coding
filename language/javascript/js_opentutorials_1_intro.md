@@ -1,323 +1,157 @@
-# 1. SQL 중심적인 개발의 문제점
+# 자바스크립트 기본
+## 웹브라우저
+웹브라우저를 **프로그래밍적으로 제어**하는 도구가 javascript이다.
+웹브라우저에게 코드를 통해 명령을 한다.
+아래는 예시코드이다.
 
-현재 데이터베이스 세계의 헤게모니를 관계형 DB가 가지고 있다(Oracle, MySQL, ...). 지금 시대에는 객체를 관계형 DB에 관리하고 있다는 이야기이다. 관계형 DB를 사용하려면 SQL을 짜야한다. 계속, SQL 중심적인 개발을 하게되면 아래와 같은 문제점이 있다.
-
-## 무한 반복, 지루한 코드
-
-* 객체 CRUD(insert, update, select, delete)
-
-  ```java
-  public class Member {
-    private String memberId;
-    private String name;
-    ...
-  }
-  ```
-
-  ```sql
-  INSERT INTO MEMBER(MEMBER_ID, NAME) VALUES ...
-  SELECT MEMBER_ID, NAME FROM MEMBER M
-  UPDATE MEMBER SET ...
-  ```
-
-* 기획자가 tel 정보를 추가하자고 한다. 그렇다면 전개는?
-
-  * Member 객체에 필드를 하나 추가하게되고, 모든 쿼리에 tel 정보를 추가해야 된다. **모든!** 쿼리에..
-
-  * 추가 하는 과정에서 누락이 있다면, 헬게이트 오픈이다.
-  
-  * **결국, 우리가 관계형 DB를 쓰는 상황에서는 SQL에 의존적인 개발을 피하기 어렵다**
-  
-    ```java
-    public class Member {
-      private String memberId;
-      private String name;
-    private String tel;
-      ...
-    }
-    ```
-  
-    ```sql
-    INSERT INTO MEMBER(MEMBER_ID, NAME, TEL) VALUES ...
-    SELECT MEMBER_ID, NAME, TEL FROM MEMBER M
-    UPDATE MEMBER SET ... TEL =?
+    ```js
+  <html>
+  <body>
+  <input type="button" onclick="alert('Hello world')" value="Hello world" />
+  </body>
+  </html>
     ```
 
-## 엔티티 신뢰 문제
+위 코드는 브라우저에서 onclick을 했을 때 경고창을 뜨게 한다.
+클릭을 통해 웹브라우저를 프로그래밍적으로 제어하는 것이다.
+즉, 코드에서는 "alert('Hello world')" 부분이 javascript라고 할 수 있다.
 
-* 코드를 객체 지향적으로 짰다고 가정하고, MemberDAO에서 member를 하나 꺼내왔다고 하자.
-* 해당 멤버의 팀과 주문정보, 그 주문정보의 배송지 정보를 getter로 가져오려고 하는 건 자연스러운 생각이다.
-* 하지만, 해당 member가 팀과 주문과 배송지 정보를 가지고 있다고 보장되지 않는 이상 이렇게 코드를 짤 수 없다.
-* DAO의 코드를 까서 팀과 주문정보 주문에 대한 배송지 정보들을 쿼리로 정말 가져오는지 눈으로 확인해봐야 한다.
-* 계층형 아키텍처(controller, domain, service등의 계층형 구조)의 진정한 의미의 계층 분할이 어렵다는 이야기이다. 즉, 물리적으로는 분리되어 있지만 논리적으로는 전혀 분할되어 있지 않다는 이야기 이다.
-* **결과적으로 어떤 쿼리를 짜느냐에 따라 비즈니스 로직에 영향을 주기 때문에 SQL 의존적인 개발을 피하기 어렵다.**
+## 탈웹브라우저
+js는 웹서버를 동작하기 위한 도구로도 사용된다.
+그 대표적인 기술이 node.js이다.
 
-```java
-class memberService {
-  ...
-  public void process(String id) {
-    Member member = memberDAO.find(id);
-    member.getTeam();									//???
-    member.getOrder().getDelevery();	//???
-  }
-}
-```
+<br>
+웹서버 <- 웹 : 요청,응답-> 웹브라우저
+<br>
 
-## 패러다임의 불일치
+javascipt는 웹브라우저를 제어하기 위해 고안이 됐다.
+그러나 많은 사람들이 사용하면서 기술이 발전하면서, 웹서버에서도 동작하는 기술도 만들어졌다 : PHP,JAVA,PYTHON....
+<br>
+웹브라우저에 주소를 입력하면, 주소에 해당하는 컴퓨터를 찾아서, 그 컴퓨터에게 웹브라우저가 요청을 하면 사용자에 입력한 주소에 해당하는 웹서버는 요청한 정보를 찾아서 웹브라우저에게 응답한다.
+<br>
+서버에 존재하면서 웹브라우저에 응답하기 위한 정보를 프로그래밍적으로 생성해주는 기술이 php,java,python이다.
+js가 웹서버에서도 사용할 수 있도록 개발된 것이 node.js이다.
+즉, js는 웹브라우저,웹서버에서 모두 통일해서 사용할 수 있다.
 
-* 객체 vs 관계형 데이터베이스
-  * **관계형 데이터베이스**는 철저히 '데이터를 어떤식으로 잘 저장할까'에 포커스가 맞춰져있다.
-  * **객체**는 데이터 저장이 아니라 '어떻게 더 추상화하고 관리를 잘 할까'가 더 중요하다.
-  * 우리는 포커스가 다른 두 가지를 억지로 맵핑해서 일을 처리해야하기 때문에 그 사이에서 많은 시간을 보내고 있다.
-* 객체를 영구 보관하는 다양한 저장소
-  * Object -> RDB, NoSQL, File 등 객체를 저장할 수 있는 방법이 많이 있지만,
-  * **현실적인 대안은 관계형 데이터베이스이다.**
-* 객체를 관계형 DB에 저장하려면
-  * 객체를 SQL로 바꾼다. (개발자가, 한땀한땀)
-  * 개발자가 SQL 매퍼의 일을 너무 많이 하고 있다.
-
-## 객체와 관계형 데이터베이스의 차이
-
-### 상속
-
-* 객체의 상속 관계
-* Table 슈퍼타입 서브타입 관계
-    * 객체 상속관계와 그나마 유사한 논리 모델
-    * 아래는 물리 모델로 잘 표현해놓은 관계도이다.
-
-![](https://github.com/namjunemy/TIL/blob/master/Jpa/tacademy/img/01_extends.PNG?raw=true)
-
-* Album객체를 **저장**하는 경우에
-    * 객체를 분해 한다. item을 상속받았으니까 앨범이 데이터를 다 가지고 있을 것이다.
-    * 그리고 DB에 저장하려고하면 다른 INSERT 쿼리를 두번 날려야 한다.
-        * INSERT INTO ITEM ...
-        * INSERT INTO ALBUM ...
-    * 저장은 그래도 어떻게든 했다고 치자
-* Album을 **조회**하려고 하면?
-    * 각각의 테이블에 따른 조인 SQL을 작성한다.
-        * ALBUM과 ITEM, MOVIE와 ITEM 조인해서 데이터 가져온다.
-    * 각각의 객체 생성해서 필드에 넣어주고.....상상만해도 복잡하다.
-    * **그래서 DB에 저장할 객체에는 상속 관계를 안쓴다.**
-* 근데, DB가 아니고 **자바 컬렉션에 저장**한다고 생각해보자
-    * 그냥 `list.add(album);` 으로 컬렉션에 넣는다.
-* 자바 컬렉션에서 조회하면?
-    * `Album album = list.get(albumId);` id로 꺼내오면 된다.
-    * 심지어 객체 세상이기 때문에 필요하면 부모 타입으로 조회 후 다형성 활용도 가능하다.
-        * `Item item = list.get(albumId);`
-* **자바 컬렉션에서는 굉장히 심플한 작업이, 관계형 DB에 넣고 빼는 순간 중간의 매핑 작업을 개발자가 해줘야 되므로 매우 번잡한 일이 된다.**
-
-### 연관관계
-
-![](https://github.com/namjunemy/TIL/blob/master/Jpa/tacademy/img/06_jpa_relational.PNG?raw=true)
-
-* **객체**는 **참조**를 사용
-
-  * member.getTeam()
-  * 객체의 연관관계에는 **방향성이 있다**. 멤버에서 팀을 조회할 수 있지만, 팀에서 멤버조회는 불가하다.
-    * Member의 필드는 id, Team, username
-    * Team의 필드는 id, name 이라고 가정.
-
-* **테이블**은 **외래 키**를 사용
-
-  * FK와 PK를 조인해서 조회
-  * JOIN ON M.TEAM_ID = T.TEAM_ID
-
-    * MEMBER 테이블
-      * MEMBER_ID(PK)
-      * TEAM_ID(FK)
-      * USERNAME
-    * TEAM 테이블
-      * TEAM_ID(PK)
-      * NAME
-    * MAEMBER와 TEAM은 N:1 관계
-
-  * 테이블의 외래키에는 **방향성이 없다**. 멤버랑 팀 조인가능, 팀과 멤버 조인가능.
-
-* 이 때, 위의 **객체를 테이블 설계에 맞추어 모델링**하게 되면 아래와 같이 FK를 그대로 필드로 포함하게 된다. 하지만, Member클래스에 Team 객체가 존재하는 것이 더 객체지향적이다 라고 할 수 있다. FK의 값을 넣는것 보단.
-
-  ```java
-  class Member {
-    String id;        //MEMBER_ID 컬럼
-    Long teamId;      //TEAM_ID FK 컬럼
-    String username;  //USERNAME 컬럼
-  }
-  ```
-
-  ```java
-  class Team {
-    Long id;
-    String name;
-  }
-  ```
-
-  * 이렇게 설계된 객체를 테이블에 저장 한다.
-
-    * 테이블 설계에 맞추어 객체를 모델링해서 INSERT 쿼리를 짠다.
-
-      ```sql
-      INSERT INTO MEMBER(MEMBER_ID, TEAM_ID, USERNAME) VALUES ...
-      ```
-
-* 그러나, **객체다운 모델링**에서는 아래와 같이 Team이라는 객체 자체를 포함하고 있어서 Member객체에서 Team을 바로 접근할 수 있다.
-   ```java
-   class Member {
-     String id;
-     Team team;        //참조로 연관관계를 맺는다
-     String username;
-   }
-   ```
-
-   ```java
-   class Team {
-     Long id;        // TEAM_ID PK 사용
-     String name;    // NAME 컬럼 사용
-   }
-   ```
-
-   * **객체를 테이블에 저장**할 때에는 `member.getTeam().getId()`로 teamId를 조회해서 넣었다.
-
-      ```sql
-      INSERT INTO MEMBER(MEMBER_ID, TEAM_ID, USERNAME) VALUES ...
-      ```
-
-   * 그러나, **조회를 하려고 하면…. 헬게이트 오픈**이다. 먼저 멤버와 팀을 조인해 놓고 팀을 조회할 준비를 한다.
-
-      ```sql
-      SELECT M.*, T.*
-        FROM MEMBER M
-        JOIN TEAM T ON M.TEAM_ID = T.TEAM_ID
-      ```
-
-   * DB에서 조회해서 객체에 넣으려면.. 
-
-      ```java
-      public Member find(Strubg memberId) {
-        // SQL 실행하고
-        Member member = new Member();
-        // DB에서 조회한 회원 관련 정보를 모두 입력하고
-        Team team = new Team();
-        // DB에서 조회한 팀 관련 정보를 모두 넣고,
-        
-        // 회원과 팀 관계 설정
-        member.setTeam(team);
-        return member;
-      }
-      ```
-
-   * 하지만…. 선배들은 member와 team의 정보를 모두 가지고 있는 member_team DTO를 가지고,  위와같이 복잡하게 연관관계 매핑을 하지않고 한방 쿼리를 날리면서 작업을 한다...
-
-* **(객체지향 적인)객체 모델링을 자바 컬렉션에 관리**한다고 생각하면, 객체지향 적인 설계가 괜찮은 설계가 된다.
-* 리스트에 멤버를 저장하면, 팀도 같이 저장된다.
-  
-    * `list.add(member);`
-* 멤버가 필요하면?
-  
-    * `Member member = list.get(memberId);`
-* 멤버의 팀을 조회하고 싶으면?
-  
-    * `Team team = member.getTeam();`
-* 이걸 RDB에 저장하고 조회하면 생산성이 안나오기 시작한다.
-  
-  * 그래서 슈퍼 DTO 만들어서 객체 하나로 반환해서 사용했다. 그게 생산성 측면에서 더 좋았다.
-
-### 객체 그래프 탐색
-
-![](https://github.com/namjunemy/TIL/blob/master/Jpa/inflearn/img/01_graph_navigation.png?raw=true)
-
-* 객체는 자유롭게 객체 그래프를 탐색할 수 있어야 한다.
-
-  * 예를 들면, member.getTeam(), member.getOrder(), member.getOrder().getOderItem() 할 수 있어야 된다.
-
-* DB에서는 멤버와 팀, 멤버와 오더 서로 조회를 할 수 있다. 하지만, 서비스 로직에서는 못한다. 왜? 처음에 쿼리에 넣어놓지 않아서 가져오지 않았기 때문에.
-
-* 핵심은 **처음 실행하는 SQL에 따라 탐색 범위가 결정**된다는 것이다.
-
-  * 쿼리에서 오더를 가져오지 않았기 때문에 getOrder()는 NULL이다.
-
-  ```sql
-  SELECT M.*, T.*
-    FROM MEMBER M
-    JOIN TEAM T ON M.TEAM_ID = T.TEAM_ID
-  ```
-
-  ```java
-  member.getTeam(); //OK
-  
-  member.getOrder(); //NULL
-  ```
-
-* **결국 엔티티 신뢰 문제**가 발생하게 된다.
-
-    * 아래와 같은 서비스 로직을 짤 때, 내가 DAO를 작성하지 않았다고 생각하면 **DAO에서 반환된 엔티티를 신뢰하고 사용할 수 없다**. 
-    * memberDAO가 member를 어떻게 가져오느냐 눈으로 확인해야된다. NPE 여지가 다분하다.
-    * 일반적으로 Layered 아키텍처에서는 그 다음 계층에서 신뢰를 하고 사용해야 하는데, 여기에서는 엔티티 계층을 신뢰할 수 없는 문제가 발생하게 된다.
-    * 물리적으로는 서비스, DAO 등의 층이 분리되어 있지만, 논리적으로는 DAO 내부를 열어 보고 직접 가져오는지 확인하는 등의 작업이 필요하므로 다 엮여 있는 상태이다.
-
-    ```java
-    class MemeberService {
-      ...
-      public void process() {
-      	Member member = memberDAO.find(memberId);
-        member.getTeam();  //???
-        member.getOrder().getDelivery();   //???
-      }
-    }
+    ```js
+    node nodejs.js
     ```
+웹 전체에서 javascript의 영향은 더 커지고 있다.
 
-* 이런식의 해결법도 있긴 하다. 
+## 탈웹
+### Google Apps Script
+도구 - 스크립트 편집기 - 빈프로젝트
+<br>
 
-  * 경우의 수를 다 파악해서 DAO에 메소드를 다 만들어 놓는다.
-  * Member만 조회, Member와 Team 조회, Order까지 조회 등
-      * getMember();
-      * getMemberWithTeam();
-      * getMemberWithOrderWithDelivery();
-  * 이게 맞을까?
-  * **결론적으로 SQL을 직접 다루게 되면, 진정한 의미의 계층 분할이 어렵다.**
+    ```js
+  function onOpen(){
+    var name = Browser.msgBox('Hello world');
+  };
+    ```
+프로젝트를 저장하고, 스프레드 시트 이름도 동일 이름으로 저장하면 대화상자가 뜬다.
+<br>
+Hello world가 google scipt가 실행됐을 때 실행된다.
 
-### 비교하기
+**js는 단순히 웹브라우저만을 제어하는 것이 아니라 여러 분야에서 사용 가능하다**
 
-* **일반적인 SQL을 사용하는 경우**
+## 언어란?
+### 의사소통을 위한 **약속**
+javascipt 역시 문법이 있고, 하고 싶은 일을 작성해서 컴퓨터와 소통 가능하다.
+프로그래밍 언어를 배우는 것은 약속, 문법을 익히는 것이다.
 
-    * DB에서 조회해오면 JDBC 접근로직 타고 new로 생성하니까 당연히 다르다.
+## 환경이란?
+js는 탈웹브라우저, 탈웹.
+언어와 환경을 분리해서 생각하면 좋을 것이다.
+## 언어를 사용하는 **대상**
 
-        ```java
-        String memberId = "100";
-        Member member1 = memberDAO.getMember(memberId);
-        Member member2 = memberDAO.getMember(memberId);
-        
-        member1 == member2; //다르다
-        ```
+사용자 - 한국어 : ~해주세요 -> 개발자, 의사, 변호사...
+<br>
+한국어 : 언어
+"의사에게 개발해주세요", "개발자에게 치료해주세요"라는 요청은 불가능하다.
+즉, 사용자는 할 수 있는 일에 대한 이해가 있어야한다.
+<br>
+<br>
+사용자 - javascipt : ~('Hello world'); -> alert : 웹브라우저, write : node.js, msgBox : SpreadSheet
+<br>
+언어의 문법을 이해해서 써야한다. 
 
-        ```java
-        class MemberDAO {
-          public Member getMember(String memberId) {
-            String sql = "SELECT * FROM MEMBER WHERE MEMBER_ID = ?";
-          	...
-            // JDBC API, SQL 실행
-            return new Member(...);
-          }
-        }
-        ```
+### 웹브라우저, node.js, SpreadSheet는 **환경**이다.
 
-* **자바 컬렉션에서 조회하는 경우**
+~에 웹브라우저에서는 alert, node.js는 write,SpreadSheet에서는 MsgBox라고 써야한다.
 
-    * 그런데, 자바 컬렉션에서 조회한다고 가정해보면 두 멤버는 같은 멤버이다.
+## 사용자
+사용자가 웹브라우저, node.js, SpreadSheet를 사용하는 것은 버튼을 누르는 것과 같다. 개발자는 버튼이 아니라 CODE를 입력하는 점에서 일반 사용자와 다르다.
 
-        ```java
-        String memberId = "100";
-        Member member1 = list.get(memberId);
-        Member member2 = list.get(memberId);
-        
-        member1 == member2; //같다.
-        ```
+<br>
+<br>
+<br>
+
+## JavaScript
+JavaScript는 웹페이지를 동적으로, 프로그래밍적으로 제어하기 위해서 고안된 언어다. 그렇기 때문에 오늘날 가장 중요한 플랫폼이라고 할 수 있는 웹브라우저에서 유일하게 사용할 수 있는 프로그래밍 언어이다. 최근에는 HTML5의 적용이 가속화되면서 지금까지 모바일 환경에서 네이티브 앱(안드로이드, IOS)으로 구현해왔던 기능이 웹에서도 대부분 구현할 수 있게 되고 있다. 웹이 크로스플랫폼이라는 점, 검색 가능하다는 점, 네이티브 디바이스를 제어할 수 있는 하드브리드 시스템(phonegap 등)이 존재한다는 점에서 웹의 중요함은 더욱 확대될 전망이다. 자연스럽게 웹에서 구동되는 유일한 언어인 JavaScript의 중요함도 점점 커질 것으로 예상된다.
+
+자바스크립트로 할 수 있는 일을 참고하면 알 수 있지만, 최근에는 자바스크립트가 웹을 벗어나서 광범위하게 사용되고 있다. 그 효용이 다각적이면서도 배우기 쉬운 점 때문에 자바스크립트는 중급 개발자나 프로그래밍 입문자 모두가 도전해볼만한 언어다.
+
+## 역사
+HTML이 한번 화면에 출력된 후에는 그 형태나 동작방법을 바꿀 수 없는 문제를 해결하기 위해서 네스케이프에서 만들어졌다. 이후에 이 언어는 마이크로소프트의 인터넷 익스플로러에 jscript라는 이름으로 탑재된다. 후에 ECMA라는 표준화 기구로 이 언어의 관리 주체가 옮겨졌다.
+
+## ECMAScript
+ECMAScript는 표준화 기구인 Ecma International에 의해서 관리되는 자바스크립트 표준안이다. 현재의 자바스크립트는 ECMAScript 3 기반으로 만들어졌고, 현재 시점(2013년)에서는 ECMAScript 5가 표준으로 정의 되었고 이 버전의 자바스크립트를 브라우저 벤더들이 자신들의 브라우저에 구현하는 작업이 한창이다. 곧 ECMAScript 5의 새로운 기능들을 웹에서도 문제 없이 사용할 수 있게 될 것이다. ECMAScript 4는 기존의 자바스크립트와 너무 큰 차이점 때문에 표준으로 채택되지 못했다.
+
+## JavaScript 학습에 요구되는 선행학습
+웹페이지를 동적으로 제어하기 위한 목적으로 자바스크립트를 학습한다면 아래 내용은 반드시 선행해야한다. 아래 내용을 학습 한 후에 본 수업을 공부하고 DOM을 학습하면 웹페이지를 프로그래밍적으로 제어 할 수 있다. 최근에는 DOM을 직접 제어하는 것 보다는 jQuery와 같은 라이브러리를 사용하는 것이 일반적이다. DOM에 대한 내용은 DOM 수업을 참고하고 jQuery에 대한 내용은 jQuery 수업을 참고한다.
+
+* HTML
+  * 웹페이지를 만드는 언어로 자바스크립트가 제어하는 직접적인 대상이다.
+  * 생활코딩 HTML 수업과 HTML 사전을 참고한다.
+* CSS
+  * 웹페이지를 꾸며주는 언어로 자바스크립트와 함께 사용되어 HTML을 보다 사용자 친화적인 문서, 응용프로그램으로 만들어준다.
+  * 생활코딩 CSS 수업, CSS 사전을 참고한다.
+
+## JavaScript로 할 수 있는 일들
+웹페이지 스크립팅 - DOM
+서버 측 스크립팅 - node.js
+브라우저 확장기능
+Google Chrome extensions
+Opera extensions
+Apple Safari 5 extensions
+Apple Dashboard Widgets
+Microsoft Gadgets
+Yahoo! Widgets
+Google Desktop Gadgets
+Serence Klipfolio
+Adobe PDF
+Tools in the Adobe Creative Suite,
+Photoshop
+Illustrator
+Dreamweaver
+InDesign
+OpenOffice.org
+Unity 게임 엔진
+Google Apps Script
+Google Spreadsheets
+Google Sites
+채팅 시스템
+ChatZilla
+XChat
+
+## JavaScript에 영향을 준 언어
+ * Java : 기본적인 문법
+ * Scheme : 1급함수(first-class function) 함수의 인자와 반환값으로 함수를 사용
+ * Self : prototype 기반의 상속 개념
+
+
+## 참고
+http://ejohn.org/apps/learn/ 
+jQuery를 만든 John Resig의 JavaScript 고급 강의
+https://developer.mozilla.org/ko/docs/JavaScript/Guide
+Firefox의 모질라 재단에서 운영중인 자바스크립트 튜토리얼
+http://opentutorials.org/course/50
+JavaScript 사전
+http://www.html5rocks.com/ko/
 
 ## 마무리
 
-* 위의 비교들을 통해 둘간의 패러다임 차이를 느낄 수 있다.
-* 결론적으로 객체답게 모델링 할수록 매핑 작업만 늘어나게 된다.
-* 객체를 자바 컬렉션에 저장하듯이 DB에 저장할 수는 없을까?
-* 자바진영에서는 그 고민의 결과가 **JPA**다.
+* javascipt 언어의 중요성을 알게되었다.
 
 ### Reference
-
 * [생활코딩 javascript](https://opentutorials.org/course/743/4650)
