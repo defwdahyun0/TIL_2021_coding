@@ -1,5 +1,158 @@
 # 숫자와 문자
 
+## 수의 표현
+
+기본적으로 알아야할 것 : 데이터
+데이터 타입 : 숫자, 문자... 기타 등등
+
+숫자와 문자를 어떻게 연산하는가만 알아두 됨
+이러한 점이 js를 배웠을 때 좋은점!
+
+'''js
+<!DOCTYOE html>
+<html>
+<head>
+    <title></title>
+</head>
+<bode>
+<script type="text/javascript">
+    alert(1);
+</script>
+</body>
+</html>
+'''
+
+alert( ); 문법적인 궁금증은 가질 필요 없다.
+중요한 것은 alert( );라고 하면 괄호 안의 값이 경고창에 표현된다.
+여기에 집중하기
+
+---
+
+작성한 파일 열기 - demo1.html
+
+정수 -1,0,1,2,3,4....
+실수 -2.0,0.222,0.5,1.1,2.0
+
+정수?실수? 정의는 중요하지 않다.
+그냥 숫자는 정수, 실수 모두 쓸 수 있다. js에서는 number라고 부른다.
+
+콘솔에서 실습 할 수도 있다
+
+## 수의 연산
+
+### 덧셈 
+alert(1+1);
+alert(1.1+1.1);
+### 곱셈
+alert(2*8);
+### 연산 함수
+Math.pow(3,2); : 객체
+Math.round(10.6) : 반올림
+Math.ceil(10.2) : 가장 가까운 위의 정수로 올려줌
+Math.floor(10.2) : 가장 가까운 아래의 정수로 내려줌
+Math.sqrt(9) : 제곱근 구하기
+Math.random(); : 랜덤 수 구하기(소수점 0.2345~)
+그래서 100*Math.random은 100이하의 난수
+
+Math.round(100*Math.random()); : 합성
+
+## 문자
+
+'''js
+<!DOCTYOE html>
+<html>
+<head>
+    <title></title>
+</head>
+<bode>
+<script type="text/javascript">
+    alert("coding everybody");
+</script>
+</body>
+</html>
+'''
+
+문자를 입력할 때는 **큰따옴표**를 쓴다.
+
+이제 콘솔 사용
+
+alert('coding everybody');
+alert("coding everybody");
+콘솔에서는 **큰따옴표** **작은따옴표** 모두 가능하지만, 교차로 사용하는 것은 불가능하다.
+
+'' ""는 지금부터 나오는 text는 문자임을 브라우저에게 알려주는 것이다.
+alert("coding everybody'");
+'를 문자로 인식하고 잘 종료된다.
+
+
+alert("egoing's coding everybody");
+alert('egoing"s coding everybody');
+alert('egoing\'s coding everybody');
+
+위는 모두 유효하다.
+
+\' : escape 도망
+
+1
+"1"
+위 둘은 다른 데이터 형식이다.
+1은 숫자, "1"은 문자
+
+typeof로 type을 알 수 있다.
+typeof 1, typeof "1"
+
+"1"은 문자열이라고 한다.
+
+"abcde" 여러 개의 문자가 결합되어 있기 때문에 문자들의 모임, 문자열, string이라고 한다.
+
+## 문자연산
+
+### 여러줄의 표시
+'''js
+<!DOCTYOE html>
+<html>
+<head>
+    <title></title>
+</head>
+<bode>
+<script type="text/javascript">
+    alert("coding\neverybody");
+</script>
+</body>
+</html>
+'''
+
+\n은 줄바꿈이라는 의미이다.
+
+### 문자 결합
+'''js
+<!DOCTYOE html>
+<html>
+<head>
+    <title></title>
+</head>
+<bode>
+<script type="text/javascript">
+    alert("coding"+" "+"everybody");
+</script>
+</body>
+</html>
+'''
+
+1+1 = 2
+"1"+"1" = "11"
+
+"coding everybody"
+"coding everybody".length : 16
+
+!!!자바스크립트 사전 링크!!!
+string.indexof(search)
+"code".indexof("c") : 0
+"code".indexof("o") : 1
+"code".indexof("d") : 2
+"code".indexof("e") : 3
+
+---
 
 2013-06-20 23:38:27
 프로그래밍 입문자에게 가장 익숙한 데이터 형(data type)은 숫자와 문자일 것이다. 이번 시간에는 실제로 가장 많이 사용되는 데이터 형인 문자와 숫자를 프로그래밍에서는 어떻게 표현하고 연산하는지 알아보자.
