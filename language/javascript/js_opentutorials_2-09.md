@@ -93,6 +93,8 @@ numbering();
 numbering();
 ```
 
+**재사용성,유지보수의 용이,가독성**
+
 ## 입력과 출력
 함수의 핵심은 입력과 출력이다. 입력된 값을 연산해서 출력하는 것이 함수의 기본적인 역할이다. 다음은 함수에서 입력과 출력의 역할을 하는 구문들에 대한 설명이다.
 
@@ -170,3 +172,17 @@ var numbering = function (){
 numbering();
 ```
 위의 내용은 이전 예제와 동일 하지만 함수를 정의 하는 방법을 달리한 것이다. 
+
+```js
+(function (){
+    i = 0;
+    while(i < 10){
+        document.write(i);
+        i += 1;
+    }   
+})();
+```
+위는 일회성으로 호출할 때 사용되는 **익명함수**이다.
+
+## Reference
+* [생활코딩 javascript](https://opentutorials.org/course/743/4729)
