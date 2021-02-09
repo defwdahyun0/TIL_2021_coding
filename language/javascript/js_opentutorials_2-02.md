@@ -256,3 +256,6 @@ alert("coding everybody".length)
 결과 : 16
 
 그 외에 문자를 이용한 작업 방법은 자바스크립트 사전을 참고한다.
+
+## Reference
+* [생활코딩 javascript](https://opentutorials.org/course/743/4647)
