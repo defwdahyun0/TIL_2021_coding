@@ -131,13 +131,13 @@ ECMAScript는 표준화 기구인 Ecma International에 의해서 관리되는 �
  * Scheme : 1급함수(first-class function) 함수의 인자와 반환값으로 함수를 사용
  * Self : prototype 기반의 상속 개념
 ## 참고
-http://ejohn.org/apps/learn/ 
-jQuery를 만든 John Resig의 JavaScript 고급 강의
-https://developer.mozilla.org/ko/docs/JavaScript/Guide
-Firefox의 모질라 재단에서 운영중인 자바스크립트 튜토리얼
-http://opentutorials.org/course/50
-JavaScript 사전
-http://www.html5rocks.com/ko/
+* http://ejohn.org/apps/learn/ 
+  jQuery를 만든 John Resig의 JavaScript 고급 강의
+* https://developer.mozilla.org/ko/docs/JavaScript/Guide
+  Firefox의 모질라 재단에서 운영중인 자바스크립트 튜토리얼
+* http://opentutorials.org/course/50
+  JavaScript 사전
+* http://www.html5rocks.com/ko/
 
 ## Reference
 * [생활코딩 javascript](https://opentutorials.org/course/743/4650)
