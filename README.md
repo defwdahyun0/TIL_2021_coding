@@ -94,6 +94,17 @@
         * [재귀함수](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_5-1.md)
     * [6. 마무리](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_6_end.md)
 
+### React
+
+* 노마드코더 강의 ReactJS로 영화 웹 서비스 만들기
+    * [0. INTRODUCTION]
+    * [1. SETUP]
+    * [2. JSX & PROPS]
+    * [3. STATE]
+    * [4. MAKING THE MOVIE APP]
+    * [5. CONCLUSIONS]
+    * [6. ROUTING BONUS]
+
 ### React Native
 
 * 노마드코더 강의 React Native로 날씨앱 만들기
