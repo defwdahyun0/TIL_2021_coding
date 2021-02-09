@@ -78,8 +78,6 @@ js는 탈웹브라우저, 탈웹.
 ## 사용자
 사용자가 웹브라우저, node.js, SpreadSheet를 사용하는 것은 버튼을 누르는 것과 같다. 개발자는 버튼이 아니라 CODE를 입력하는 점에서 일반 사용자와 다르다.
 
----
-
 ## JavaScript
 JavaScript는 웹페이지를 동적으로, 프로그래밍적으로 제어하기 위해서 고안된 언어다. 그렇기 때문에 오늘날 가장 중요한 플랫폼이라고 할 수 있는 웹브라우저에서 유일하게 사용할 수 있는 프로그래밍 언어이다. 최근에는 HTML5의 적용이 가속화되면서 지금까지 모바일 환경에서 네이티브 앱(안드로이드, IOS)으로 구현해왔던 기능이 웹에서도 대부분 구현할 수 있게 되고 있다. 웹이 크로스플랫폼이라는 점, 검색 가능하다는 점, 네이티브 디바이스를 제어할 수 있는 하드브리드 시스템(phonegap 등)이 존재한다는 점에서 웹의 중요함은 더욱 확대될 전망이다. 자연스럽게 웹에서 구동되는 유일한 언어인 JavaScript의 중요함도 점점 커질 것으로 예상된다.
 
@@ -132,8 +130,6 @@ ECMAScript는 표준화 기구인 Ecma International에 의해서 관리되는 �
  * Java : 기본적인 문법
  * Scheme : 1급함수(first-class function) 함수의 인자와 반환값으로 함수를 사용
  * Self : prototype 기반의 상속 개념
-
-
 ## 참고
 http://ejohn.org/apps/learn/ 
 jQuery를 만든 John Resig의 JavaScript 고급 강의
@@ -142,12 +138,6 @@ Firefox의 모질라 재단에서 운영중인 자바스크립트 튜토리얼
 http://opentutorials.org/course/50
 JavaScript 사전
 http://www.html5rocks.com/ko/
-
-***
-
-## 마무리
-
-* javascipt 언어의 중요성을 알게되었다.
 
 ## Reference
 * [생활코딩 javascript](https://opentutorials.org/course/743/4650)
