@@ -149,5 +149,3 @@ string.indexof(search)
 
 ## Reference
 * [생활코딩 javascript](https://opentutorials.org/course/743/4647)
-
-
