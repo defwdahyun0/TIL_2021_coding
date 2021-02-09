@@ -8,8 +8,9 @@ react가 현대적으로 동작하기 때문에 미리 설치해야할 것이 �
 npm, npx
 
 cd Documents
-npx create-react-app movie_app //folder name
+npx create-react-app movie_app
 
+오류가 떠서, sudo chown -R 502:20 "/Users/dahyun/.npm" 명령어로 권한을 부여해주었다.
 
 
 # 1.1 Creating a Github Repository

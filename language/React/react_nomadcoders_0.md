@@ -8,7 +8,9 @@ https://nodejs.org/ko/
 
 설치가 잘 되었는지 node -v,npm -v로 확인한다.
 
-추가로 npx를 설치해야하는데, /usr/local/bin으로 가서 기존에 있는 npx 파일을 삭제한 이후 sudo npm install npx -g로 깔아준다.
+가장 최신 버전을 깔았을 때(v.15.8.0) 오류가 나지 않았다.
+
+추가로 npx를 설치해야하는데, sudo npm install npx -g로 깔아준다.
 
 이후 npx -v로 설치가 잘 되었는지 확인한다.
 
