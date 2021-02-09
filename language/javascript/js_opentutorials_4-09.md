@@ -2,18 +2,19 @@
 
 ## 원시 데이터 타입
 이제 데이터 타입에 대해서 조금 더 심도 있는 이야기를 할 수 있게 되었다. 데이터 타입이란 데이터의 형태를 의미한다. 데이터 타입은 크게 두가지로 구분할 수 있다. 객체와 객체가 아닌 것. 그럼 객체가 아닌 것은 무엇일까?
-
-    * 숫자
-    * 문자열
-    * 불리언(true/false)
-    * null
-    * undefined
+-> wrapper 객체
+* 숫자 -> Number
+* 문자열 -> Stting
+* 불리언(true/false) -> Boolean
+* null -> x
+* undefined -> x
 객체가 아닌 데이터 타입을 원시 데이터 타입(primitive type)이라고 한다. 그 외의 모든 데이터 타입들은 객체다. 
 
 ## 레퍼 객체
 아래 코드를 보자.
 ```js
 var str = 'coding';
+//str = new String('coding') //임의로 이러한 동작을 실행함
 console.log(str.length);        // 6
 console.log(str.charAt(0));     // "C"
 ```
@@ -21,11 +22,14 @@ console.log(str.charAt(0));     // "C"
 
 ```js
 var str = 'coding';
-str.prop = 'everybody';
-console.log(str.prop);      // undefined
+str.prop = 'everybody'; //객체가 만들어졌지만 삭제된다. 자동생성 객체는 wrapper Object라고 한다. 원시데이터 타입을 객체로 감싸준다.
+console.log(str.prop); // undefined
 ```
 str.prop를 하는 순간에 자바스크립트 내부적으로 String 객체가 만들어진다. prop 프로퍼티는 이 객체에 저장되고 이 객체는 곧 제거 된다. 그렇기 때문에 prop라는 속성이 저장된 객체는 존재하지 않게된다. 이러한 특징은 일반적인 객체의 동작 방법과는 다르다. 
 
-하지만 문자열과 관련해서 필요한 기능성을 객체지향적으로 제공해야 하는 필요 또한 있기 때문에 원시 데이터 형을 객체처럼 다룰 수 있도록 하기 위한 객체를 자바스크립트는 제공하고 있는데 그것이 레퍼객체(wrapper object)다.
+하지만 문자열과 관련해서 필요한 기능성을 객체지향적으로 제공해야 하는 필요 또한 있기 때문에 **원시 데이터 형을 객체처럼** 다룰 수 있도록 하기 위한 객체를 자바스크립트는 제공하고 있는데 그것이 레퍼객체(wrapper object)다.
 
 레퍼객체로는 String, Number, Boolean이 있다. null과 undefined는 레퍼 객체가 존재하지 않는다.
+
+## Reference
+* [생활코딩 javascript](https://opentutorials.org/course/743/6579)
