@@ -1,17 +1,24 @@
 # arguments
 
-함수에는 arguments라는 변수에 담긴 숨겨진 유사 배열이 있다. 이 배열에는 함수를 호출할 때 입력한 인자가 담겨있다. 아래 예제를 보자. 결과는 10이다.
+함수에는 arguments라는 변수에 담긴 숨겨진 **유사 배열**이 있다. 이 배열에는 함수를 호출할 때 입력한 인자가 담겨있다. 아래 예제를 보자. 결과는 10이다.
 
 ```js
 function sum(){
     var i, _sum = 0;    
-    for(i = 0; i < arguments.length; i++){
+    for(i = 0; i < arguments.length; i++){ //arguments는 인자로 접근하는 기능을 제공한다. 배열과 유사하다.
         document.write(i+' : '+arguments[i]+'<br />');
         _sum += arguments[i];
     }   
     return _sum;
 }
 document.write('result : ' + sum(1,2,3,4));
+```
+```js
+//매개변수와 인자의 차이점
+function a(arg){ //매개변수
+}
+a(1); //인자
+//엄격하게 구분하지는 않는다.
 ```
 함수 sum은 인자로 전달된 값을 모두 더해서 리턴하는 함수다. 그런데 1행처럼 함수 sum은 인자에 대한 정의하가 없다. 하지만 마지막 라인에서는 4개의 인자를 함수 sum으로 전달하고 있다. 함수의 정의부분에서 인자에 대한 구현이 없음에도 인자를 전달 할 수 있는 것은 왜 그럴까? 그것은 arguments라는 특수한 배열이 있기 때문이다.
 
@@ -45,3 +52,6 @@ zero(); // zero.length 0 arguments 0
 one('val1', 'val2');  // one.length 1 arguments 2 
 two('val1');  // two.length 2 arguments 1
  ```
+
+## Reference
+* [생활코딩 javascript](https://opentutorials.org/course/743/6548)

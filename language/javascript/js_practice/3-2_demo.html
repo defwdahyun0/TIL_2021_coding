@@ -1,0 +1,28 @@
+<!DOCTYOE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    var numbers = [20,10,9,8,7,6,5,4,3,2,1];
+    var sortfunc = function(a,b){
+        //console.log(a,b);
+        /*
+        if(a>b){
+            return 1;
+        }else if(a<b){
+            return -1;
+        }else{
+            return 0;
+        }
+        */
+        return a-b; 
+        //return b-a; //역순으로 정렬
+    }
+    console.log(numbers.sort(sortfunc)); // 배역->객체, 메쏘드 //func인자 아니면 1,10..이렇게 배열됨
+    //sortfunc 함수는 callback함수
+numbering();
+</script>
+</body>
+</html>

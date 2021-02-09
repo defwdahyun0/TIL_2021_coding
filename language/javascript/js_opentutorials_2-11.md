@@ -50,6 +50,7 @@ key :   egoing value : 10
 key :   k8805 value : 6
 key :   sorialgi value : 80
 ```
+**배열은 순서가 있고, 객체는 순서가 없다.**
 
 for 문은 in 뒤에 따라오는 배열의 key 값을 in 앞의 변수 name에 담아서 반복문을 실행한다. 반복문이 실행될 때 변수 key의 값으로 egoing, k8805, sorialgi가 순차적으로 할당되기 때문에 grades[key]를 통해서 객체의 값을 알아낼 수 있다.
 
@@ -59,6 +60,7 @@ for 문은 in 뒤에 따라오는 배열의 key 값을 in 앞의 변수 name에 
 var grades = {
     'list': {'egoing': 10, 'k8805': 6, 'sorialgi': 80},
     'show' : function(){
+        //console.log(this.list); //this는 현재 객체를 의미함
         for(var name in this.list){
             document.write(name+':'+this.list[name]+"<br />");
         }
@@ -67,3 +69,6 @@ var grades = {
 grades.show();
 ```
 이것은 자바스크립트를 이용한 객체 지향 프로그래밍 기법의 핵심이 되는 성질로 취지에 따라서 로직을 객체에 그룹핑해서 객체라는 부품을 조립해서 소프트웨어라는 완제품을 만들 수 있게 해준다. 객체 지향에 대해서는 뒤에서 자세히 살펴본다.
+
+## Reference
+* [생활코딩 javascript](https://opentutorials.org/course/743/6491)

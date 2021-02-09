@@ -31,6 +31,7 @@ var p1 = new Person('egoing');
 document.write(p1.introduce()+"<br />");
 ```
 결과는 같다. 하지만 상속을 위한 기본적인 준비를 마쳤다. 이제 상속을 해보자.
+
 ```js
 function Person(name){
     this.name = name;
@@ -43,7 +44,7 @@ Person.prototype.introduce = function(){
 function Programmer(name){
     this.name = name;
 }
-Programmer.prototype = new Person();
+Programmer.prototype = new Person(); //상속, new Person()으로 객체를 생성. 
  
 var p1 = new Programmer('egoing');
 document.write(p1.introduce()+"<br />");
@@ -64,7 +65,7 @@ function Programmer(name){
     this.name = name;
 }
 Programmer.prototype = new Person();
-Programmer.prototype.coding = function(){
+Programmer.prototype.coding = function(){ //새로운 기능 추가
     return "hello world";
 }
  
@@ -79,4 +80,5 @@ hello world
 ```
 Programmer는 Person의 기능을 가지고 있으면서 Person이 가지고 있지 않은 기능인 메소드 coding을 가지고 있다. 
 
-**prototype이 무엇인가 궁금할 것이다. 이번 시간은 상속에 대한 개념적인 부분만 살펴본 것이고 다음 시간에 prototype에 대한 구체적으로 알아보자.**
+## Reference
+* [생활코딩 javascript](https://opentutorials.org/course/743/6572)

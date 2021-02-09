@@ -68,7 +68,7 @@ main.html
 <script src="greeting.js"></script>
 ```
 
-JavaScript와 HTML은 완전히 다른 문법을 가진 언어다. 그런데 HTML 문서 안에는 JavaScript와 HTML이 동시에 표현된다. 따라서 브라우저에게 어디서부터 어디까지가 JavaScript이고, HTML인지를 구분해서 알려줘야 한다. 이 역할을 하는 HTML 태그가 script 태그다. script 태그 안쪽에 위치하는 컨텐츠는 브라우저에 의해서 JavaScript로 인식된다. 그런데 위의 코드는 컨텐츠 대신에 src 속성이 있다. 브라우저는 src 속성에 있는 파일을 다운로드해서 실행시킨다. greeting.js에는 함수 welcome가 정의되어 있기 때문에 main.html 안에 이 함수가 정의 되어 있지 않음에도 실행할 수 있는 것이다.
+JavaScript와 HTML은 완전히 다른 문법을 가진 언어다. 그런데 HTML 문서 안에는 JavaScript와 HTML이 동시에 표현된다. 따라서 브라우저에게 어디서부터 어디까지가 JavaScript이고, HTML인지를 구분해서 알려줘야 한다. 이 역할을 하는 HTML 태그가 script 태그다. script 태그 안쪽에 위치하는 컨텐츠는 브라우저에 의해서 JavaScript로 인식된다. 그런데 위의 코드는 컨텐츠 대신에 src 속성이 있다. 브라우저는 src 속성에 있는 파일을 다운로드해서 실행시킨다. **greeting.js에는 함수 welcome가 정의되어 있기 때문에 main.html 안에 이 함수가 정의 되어 있지 않음에도 실행할 수 있는 것이다**.
 
 ## Node.js에서의 모듈의 로드
 본 수업은 Node.js를 위한 수업이 아니기 때문에 Node.js를 실행하는 방법은 다루지 않는다. 호스트 환경에 따라서 모듈을 로드하는 방법이 달라진다는 것을 보여주기 위한 예제일 뿐이기 때문에 동영상 수업을 참고하자.
@@ -86,7 +86,7 @@ exports.circumference = function (r) {
 return 2 * PI * r;
 };
 ```
-node.demo.js (로드의 주체)
+node.demo.js (로드의 주체) **require 사용**
 ```js
 var circle = require('./node.circle.js');
 console.log( 'The area of a circle of radius 4 is '
@@ -99,7 +99,7 @@ The area of a circle of radius 4 is 50.26548245743669
 ```
 
 ## 라이브러리
-라이브러리는 모듈과 비슷한 개념이다. 모듈이 프로그램을 구성하는 작은 부품으로서의 로직을 의미한다면 라이브러리는 자주 사용되는 로직을 재사용하기 편리하도록 잘 정리한 일련의 코드들의 집합을 의미한다고 할 수 있다. 프로그래밍의 세계에는 휼룡한 라이브러리가 많다. 좋은 라이브러리를 선택하고 잘 사용하는 것은 프로그래밍의 핵심이라고 할 수 있다. 
+라이브러리는 모듈과 비슷한 개념이다. **모듈**이 프로그램을 구성하는 **작은 부품으로서의 로직**을 의미한다면 **라이브러리**는 자주 사용되는 로직을 재사용하기 편리하도록 **잘 정리한 일련의 코드들의 집합**을 의미한다고 할 수 있다. 프로그래밍의 세계에는 휼룡한 라이브러리가 많다. 좋은 라이브러리를 선택하고 잘 사용하는 것은 프로그래밍의 핵심이라고 할 수 있다. 
 
 아래 예제는 유명 라이브러리인 jQuery를 사용하는 방법이다. 
 
@@ -170,3 +170,6 @@ http://api.jquery.com/
 </body>
 </html>
 ```
+
+## Reference
+* [생활코딩 javascript](https://opentutorials.org/course/743/4705)

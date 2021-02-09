@@ -1,10 +1,11 @@
 # 생성자와 new
 
 ## 객체
-객체란 서로 연관된 변수와 함수를 그룹핑한 그릇이라고 할 수 있다. 객체 내의 변수를 프로퍼티(property) 함수를 메소드(method)라고 부른다. 객체를 만들어보자.
+javascript는 prototype-based programming이다.
+객체란 서로 연관된 변수와 함수를 그룹핑한 그릇이라고 할 수 있다. **객체 내의 변수를 프로퍼티(property) 함수를 메소드(method)라고 부른다.** 객체를 만들어보자.
 
 ```js
-var person = {}
+var person = {} //{}는 object, 즉 객체를 만든다.
 person.name = 'egoing';
 person.introduce = function(){
     return 'My name is '+this.name;
@@ -25,7 +26,7 @@ document.write(person.introduce());
 
 ## 생성자
 
-생성자(constructor)는 객체를 만드는 역할을 하는 함수다. 자바스크립트에서 함수는 재사용 가능한 로직의 묶음이 아니라 객체를 만드는 창조자라고 할 수 있다.
+생성자(constructor)는 객체를 만드는 역할을 하는 **함수**다. 자바스크립트에서 함수는 재사용 가능한 로직의 묶음이 아니라 객체를 만드는 창조자라고 할 수 있다.
 ```js
 function Person(){}
 var p = new Person();
@@ -54,7 +55,7 @@ document.write(p2.introduce());
 ```
 별로 개선된 것이 없다. 
 ```js
-function Person(name){
+function Person(name){ //초기화
     this.name = name;
     this.introduce = function(){
         return 'My name is '+this.name; 
@@ -73,3 +74,5 @@ document.write(p2.introduce());
 ## 자바스크립트 생성자의 특징
 일반적인 객체지향 언어에서 생성자는 클래스의 소속이다. 하지만 자바스크립트에서 객체를 만드는 주체는 함수다. 함수에 new를 붙이는 것을 통해서 객체를 만들 수 있다는 점은 자바스크립트에서 함수의 위상을 암시하는 단서이면서 또 자바스크립트가 추구하는 자유로움을 보여주는 사례라고 할 수 있다.
 
+## Reference
+* [생활코딩 javascript](https://opentutorials.org/course/743/6570)

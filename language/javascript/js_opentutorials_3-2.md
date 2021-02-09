@@ -4,9 +4,9 @@
 JavaScript에서는 함수도 객체다. 다시 말해서 일종의 값이다. 거의 모든 언어가 함수를 가지고 있다. JavaScript의 함수가 다른 언어의 함수와 다른 점은 함수가 값이 될 수 있다는 점이다. 다음 예제를 통해서 그 의미를 알아보자.
 
 ```js
-function a(){}
+function a(){} //var a = function(){}
 ```
-위의 예제에서 함수 a는 변수 a에 담겨진 값이다. 또한 함수는 객체의 값으로 포함될 수 있다. 이렇게 객체의 속성 값으로 담겨진 함수를 메소드(method)라고 부른다.
+위의 예제에서 함수 a는 변수 a에 담겨진 값이다. 또한 함수는 객체의 값으로 포함될 수 있다. 이렇게 **객체의 속성 값으로 담겨진 함수를 메소드(method)**라고 부른다.
 ```js
 a = {
     b:function(){
@@ -60,16 +60,27 @@ alert(input);
 값으로 사용될 수 있는 특성을 이용하면 함수의 인자로 함수로 전달할 수 있다. 값으로 전달된 함수는 호출될 수 있기 때문에 이를 이용하면 함수의 동작을 완전히 바꿀 수 있다. 인자로 전달된 함수 sortNumber의 구현에 따라서 sort의 동작방법이 완전히 바뀌게 된다.
 ```js
 function sortNumber(a,b){
-    // 위의 예제와 비교해서 a와 b의 순서를 바꾸면 정렬순서가 반대가 된다.
-    return b-a;
+    //console.log(a,b);
+    /*
+    if(a>b){
+        return 1;
+    }else if(a<b){
+        return -1;
+    }else{
+        return 0;
+    }
+    */
+    //return a-b; //정렬
+    return b-a;// 위의 예제와 비교해서 a와 b의 순서를 바꾸면 정렬순서가 반대가 된다.
 }
 var numbers = [20, 10, 9,8,7,6,5,4,3,2,1];
 alert(numbers.sort(sortNumber)); // array, [20,10,9,8,7,6,5,4,3,2,1]
 ```
 
-### 비동기 처리
+### 비동기 처리 (asynchronous)
 
-콜백은 비동기처리에서도 유용하게 사용된다. 시간이 오래걸리는 작업이 있을 때 이 작업이 완료된 후에 처리해야 할 일을 콜백으로 지정하면 해당 작업이 끝났을 때 미리 등록한 작업을 실행하도록 할 수 있다. 다음 코드는 일반적인 환경에서는 작동하지 않고 서버 환경에서만 동작한다. 동영상을 참고한다.
+콜백은 비동기처리에서도 유용하게 사용된다. **시간이 오래걸리는 작업이 있을 때 이 작업이 완료된 후에 처리해야 할 일을 콜백으로 지정**하면 해당 작업이 끝났을 때 미리 등록한 작업을 실행하도록 할 수 있다. 다음 코드는 일반적인 환경에서는 작동하지 않고 서버 환경에서만 동작한다. 동영상을 참고한다.
+(+)예시 : ajax, 웹페이지를 새로고침(변경)하지 않고 추가적인 정보를 출력한다.
 
 datasource.json.js
 ```js
@@ -84,11 +95,13 @@ demo1.html
 </head>
 <body>
 <script type="text/javascript">
-    $.get('./datasource.json.js', function(result){
+    $.get('./datasource.json.js', function(result){ //result로 {"title":"JavaScript","author":"egoing"}를 가져옴
         console.log(result);
     }, 'json');
 </script>
 </body>
 </html>
 ```
- 
+
+## Reference
+* [생활코딩 javascript](https://opentutorials.org/course/743/6508)

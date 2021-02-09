@@ -1,14 +1,13 @@
 # 클로저
 
 ## 클로저
-새창으로 열기
 클로저(closure)는 내부함수가 외부함수의 맥락(context)에 접근할 수 있는 것을 가르킨다. 클로저는 자바스크립트를 이용한 고난이도의 테크닉을 구사하는데 필수적인 개념으로 활용된다.  
 
 ## 내부함수
 자바스크립트는 함수 안에서 또 다른 함수를 선언할 수 있다. 아래의 예제를 보자. 결과는 경고창에 coding everybody가 출력될 것이다.
 ```js
 function outter(){
-    function inner(){
+    function inner(){ //내부함수
         var title = 'coding everybody'; 
         alert(title);
     }
@@ -22,7 +21,7 @@ outter();
 
 ```js
 function outter(){
-    var title = 'coding everybody';  
+    var title = 'coding everybody'; //외부함수의 지역변수
     function inner(){        
         alert(title);
     }
@@ -44,18 +43,18 @@ function outter(){
 inner = outter();
 inner();
 ```
-예제의 실행순서를 주의깊게 살펴보자. 7행에서 함수 outter를 호출하고 있다. 그 결과가 변수 inner에 담긴다. 그 결과는 이름이 없는 함수다. 실행이 8행으로 넘어오면 outter 함수는 실행이 끝났기 때문에 이 함수의 지역변수는 소멸되는 것이 자연스럽다. 하지만 8행에서 함수 inner를 실행했을 때 coding everybody가 출력된 것은 외부함수의 지역변수 title이 소멸되지 않았다는 것을 의미한다. 클로저란 내부함수가 외부함수의 지역변수에 접근 할 수 있고, 외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는 특성을 의미한다.
+예제의 실행순서를 주의깊게 살펴보자. 7행에서 함수 outter를 호출하고 있다. 그 결과가 변수 inner에 담긴다. 그 결과는 이름이 없는 함수다. 실행이 8행으로 넘어오면 outter 함수는 실행이 끝났기 때문에 이 함수의 지역변수는 소멸되는 것이 자연스럽다. 하지만 8행에서 함수 inner를 실행했을 때 coding everybody가 출력된 것은 외부함수의 지역변수 title이 소멸되지 않았다는 것을 의미한다. **클로저란 내부함수가 외부함수의 지역변수에 접근 할 수 있고, 외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는 특성을 의미한다**.
 
 조금 더 복잡한 아래 예제를 살펴보자. 아래 예제는 클로저를 이용해서 영화의 제목을 저장하고 있는 객체를 정의하고 있다. 실행결과는 Ghost in the shell -> Matrix -> 공각기동대 -> Matrix 이다.
 
 ```js
 function factory_movie(title){
     return {
-        get_title : function (){
+        get_title : function (){ //내부함수
             return title;
         },
-        set_title : function(_title){
-            title = _title
+        set_title : function(_title){ //내부함수
+            title = _title //_() private variable
         }
     }
 }
@@ -68,8 +67,10 @@ alert(matrix.get_title());
 ghost.set_title('공각기동대');
  
 alert(ghost.get_title());
-alert(matrix.get_title());
+alert(matrix.get_title()); 
 ```
+**함수로만 접근할 수 있어서 안전하다.**
+
 위의 예제를 통해서 알 수 있는 것들을 정리해보면 아래와 같다.
 
 1. 클로저는 객체의 메소드에서도 사용할 수 있다. 위의 예제는 함수의 리턴값으로 객체를 반환하고 있다. 이 객체는 메소드 get_title과 set_title을 가지고 있다. 이 메소드들은 외부함수인 factory_movie의 인자값으로 전달된 지역변수 title을 사용하고 있다.
@@ -107,7 +108,7 @@ for(var index in arr) {
 ```js
 var arr = []
 for(var i = 0; i < 5; i++){
-    arr[i] = function(id) {
+    arr[i] = function(id) { //외부 함수 정의하기
         return function(){
             return id;
         }
@@ -127,6 +128,9 @@ for(var index in arr) {
 ```
 
 ## 클로저 참고
-    * https://developer.mozilla.org/ko/docs/JavaScript/Guide/Closures
-    * http://ejohn.org/apps/learn/#48
-    * http://blog.javarouka.me/2012/01/javascripts-closure.html
+* https://developer.mozilla.org/ko/docs/JavaScript/Guide/Closures
+* http://ejohn.org/apps/learn/#48
+* http://blog.javarouka.me/2012/01/javascripts-closure.html
+
+## Reference
+* [생활코딩 javascript](https://opentutorials.org/course/743/6544)

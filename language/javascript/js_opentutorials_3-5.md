@@ -22,13 +22,28 @@ o1 = {val1:1, val2:2, val3:3}
 o2 = {v1:10, v2:50, v3:100, v4:25}
 function sum(){
     var _sum = 0;
-    for(name in this){
+    for(name in this){ //this는 호출할 때 정해짐
         _sum += this[name];
     }
     return _sum;
 }
 alert(sum.apply(o1)) // 6
 alert(sum.apply(o2)) // 185
+```
+```js
+//아래는 apply를 사용하지 않았을 때를 보여주는 예시이다. 복잡해진다.
+o1 = {val1:1, val2:2, val3:3, sum:sum}
+o2 = {v1:10, v2:50, v3:100, v4:25, sum:sum}
+function sum(){
+    var _sum = 0;
+    for(name in this){ //this는 호출할 때 정해짐
+        if(typeof this[name] !== 'function')
+            _sum += this[name];
+    }
+    return _sum;
+}
+alert(o1.sum()) // 6
+alert(o2.sum()) // 185
 ```
 예제가 복잡해보이지만 한나씩 분해해서 생각해보면 어렵지 않다.
 
@@ -45,3 +60,6 @@ delete o1.sum();
 sum의 o1 소속의 메소드가 된다는 것은 이렇게 바꿔 말할 수 있다. 함수 sum에서 this의 값이 전역객체가 아니라 o1이 된다는 의미다. 일반적인 객체지향 언어에서는 하나의 객체에 소속된 함수는 그 객체의 소유물이 된다. 하지만 JavaScript에서 함수는 독립적인 객체로서 존재하고, apply나 call 메소드를 통해서 다른 객체의 소유물인 것처럼 실행할 수 있다. 흥미롭다.
 
 만약 apply의 첫번째 인자로 null을 전달하면 apply가 실행된 함수 인스턴스는 전역객체(브라우저에서는 window)를 맥락으로 실행되게 된다.
+
+## Reference
+* [생활코딩 javascript](https://opentutorials.org/course/743/6550)
