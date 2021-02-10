@@ -97,20 +97,12 @@
 ### React
 
 * 노마드코더 강의 ReactJS로 영화 웹 서비스 만들기
-    * [0. INTRODUCTION]
-    * [1. SETUP]
-    * [2. JSX & PROPS]
-    * [3. STATE]
-    * [4. MAKING THE MOVIE APP]
-    * [5. CONCLUSIONS]
-    * [6. ROUTING BONUS]
+    * [movie-app]
+    * [강의 정리]
 
 ### React Native
 
-* 노마드코더 강의 React Native로 날씨앱 만들기
-    * [0. INTRODUCTION]
-    * [1. LOGIC]
-    * [2. STYLES]
+* 처음 배우는 리액트 네이티브 : 크로스 플랫폼 앱 개발을 위한 실전 입문서, 김범준 저.
 
 ---
 ## 알고리즘
