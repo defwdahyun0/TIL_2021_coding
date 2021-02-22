@@ -66,7 +66,7 @@
         * [줄바꿈과 여백](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_2-05.md)
         * [비교](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_2-06.md)
         * [조건문](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_2-07.md)
-        * [반복문](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_2-08.md)
+        * [반복문](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_2-08.md
         * [함수](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_2-09.md)
         * [배열](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_2-10.md)
         * [객체](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_2-11.md)
@@ -93,12 +93,6 @@
     * [5. 패턴](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_5-0.md)
         * [재귀함수](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_5-1.md)
     * [6. 마무리](https://github.com/defwdahyun0/TIL/blob/main/language/javascript/js_opentutorials_6_end.md)
-
-### React
-
-* 노마드코더 강의 ReactJS로 영화 웹 서비스 만들기
-    * [movie-app]
-    * [강의 정리]
 
 ### React Native
 
