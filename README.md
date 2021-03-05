@@ -135,7 +135,6 @@
 ## 링크
 * [TIL](https://github.com/namjunemy/TIL)
 * [자소설 닷컴](https://jasoseol.com/)
-* [추천 책 정리](https://github.com/peterhyun1234/2021_winter_DJC/blob/main/week_1/files/recommended_books.md)
 * [javascript 강의](https://opentutorials.org/course/743)
 * [node, express 강의1](https://opentutorials.org/course/3332)
 * [node, express 강의2](https://opentutorials.org/course/3370)
