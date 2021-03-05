@@ -34,7 +34,7 @@
 
 시간복잡도에서 중요하게 보는것은 가장 큰 영향을 미치는 n의 단위이다.
 
-1 O(1)->상수
+1O(1)->상수
 2n+2O O(n)->n이 가장 큰영향을 미친다.
 3n^2 O(n^2)->n^2이 가장 큰영향을 미친다.
 
@@ -44,13 +44,16 @@ printf("Hello");
 
 O(N): 선형
 입력이 증가하면 처리 시간 또는 메모리 사용이 선형적으로 증가한다.
+```cpp
 for(int i=0;i<n;i++)
 {
     printf("Hello");
 }
+```
 
 O(N^2): Square
 반복문이 두 번 있는 케이스
+```cpp
 for(int i=0;i<n;i++)
 {
     for(int i=0;i<n;i++)
@@ -58,6 +61,7 @@ for(int i=0;i<n;i++)
         printf("Hello");
     }
 }
+```
 
 ### 정렬 알고리즘의 복잡도
 
@@ -72,8 +76,6 @@ SelectionSort O(1)
 ShellSort O(1)
 SmoothSort O(1)
 
-
-
 시간복잡도: 최선-평균-최악 순
 
 BubbleSort O(n) O(n^2) O(n^2)
@@ -85,12 +87,79 @@ SelectionSort O(n^2) O(n^2) O(n^2)
 ShellSort O(n) O(nlog(n^2)) O(nlog(n^2))
 SmoothSort O(n) O(nlogn) O(nlogn)
 
-
 ### 자료구조 복잡도
 
-### 복잡도가 중요한 이유
--> 시간초과 문제!
+### 복잡도가 중요한 이유 = 시간초과
+- 예제: 백준 1929번 소수 구하기
 
-### 복잡도 계산 방법
+시간초과
+```cpp
+#include <iostream>
+#include <vector>
 
-### 에라토스테네스의 체 = ?????
+using namespace std;
+
+int main(){
+
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+
+    int start_num, end_num;
+
+    int i,j;
+
+    cin >> start_num >> end_num;
+
+    for(i=start_num; i<end_num+1; i++){
+        for(j=2; j<i; j++){
+            if(i%j == 0) break;
+        }
+        if(i==j)
+            cout << i <<"\n";
+    }
+    return 0;
+}
+```
+
+시간초과 해결(에라토스테네스의 체)
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+#define MAX_SIZE 1000000
+using namespace std;
+
+int main(){
+
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+
+    int start_num, end_num;
+    bool not_prime+num[MAX_SIZE+5] = {false,};
+
+    not_prime_num[1] = true;
+
+    for(int i=2; i<=MAX_SIZE; i++){
+        if(not_prime_num[i] == false){
+            for(int j=2; j*i <= MAX_SIZE; j++){
+                not_prime_num[j*i] = true; // 소수가 아닌 수
+            }
+        }
+    }
+
+    cin >> start_num >> end_num;
+
+    for(int i=start_num; i<end_num+1; i++){
+        if(!not_prime_num[i])
+            cout << i <<"\n";
+    }
+    return 0;
+}
+```
+https://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98_%EC%B2%B4
+
+### 복잡도 계산
+- 입력으로 계산, 정확한 계산은 불가능
