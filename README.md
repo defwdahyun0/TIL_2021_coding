@@ -102,14 +102,14 @@
 ## 알고리즘
 
 * 2021년 겨울 스터디 정리
-    * [1. 알고리즘,자료구조,시간복잡도]
-    * [2. 정렬,문자열,그리디,브루트포스,해쉬,큐,스택,덱]
-    * [3. 힙,우선순위 큐,백 트래킹]
-    * [4. DFS,BFS]
-    * [5. 그래프, 최단경로 알고리즘, 다익스트라, 벨만포드,워셜 플로이드]
-    * [6. 미니멈 스패닝 트리, 크루스칼, 프림]
-    * [7. 이분탐색,DP]
-    * [8. 정리]
+    * [1. 알고리즘,자료구조,시간복잡도](https://github.com/defwdahyun0/TIL/blob/main/Algorithm/PS_2021winterstudy_1.md)
+    * [2. 정렬,문자열,그리디,브루트포스,해쉬,큐,스택,덱](https://github.com/defwdahyun0/TIL/blob/main/Algorithm/PS_2021winterstudy_2.md)
+    * [3. 힙,우선순위 큐,백 트래킹](https://github.com/defwdahyun0/TIL/blob/main/Algorithm/PS_2021winterstudy_3.md)
+    * [4. DFS,BFS](https://github.com/defwdahyun0/TIL/blob/main/Algorithm/PS_2021winterstudy_4.md)
+    * [5. 그래프, 최단경로 알고리즘, 다익스트라, 벨만포드,워셜 플로이드](https://github.com/defwdahyun0/TIL/blob/main/Algorithm/PS_2021winterstudy_5.md)
+    * [6. 미니멈 스패닝 트리, 크루스칼, 프림](https://github.com/defwdahyun0/TIL/blob/main/Algorithm/PS_2021winterstudy_6.md)
+    * [7. 이분탐색,DP](https://github.com/defwdahyun0/TIL/blob/main/Algorithm/PS_2021winterstudy_7.md)
+    * [8. 정리](https://github.com/defwdahyun0/TIL/blob/main/Algorithm/PS_2021winterstudy_8.md)
 
 ---
 ## CS
@@ -117,14 +117,14 @@
 * [리눅스 기초](https://github.com/defwdahyun0/TIL/blob/main/CS/OS/linux.md)
 
 * 2021년 겨울 스터디 정리
-    * [1. 개요]
-    * [2. 운영체제,시스템프로그래밍,컴퓨터구조]
-    * [3. 운영체제,시스템프로그래밍,컴퓨터구조]
-    * [4. 운영체제,시스템프로그래밍,컴퓨터구조]
-    * [5. 데이터 베이스, RDBMS,NoSQL 중심]
-    * [6. 컴퓨터 네트워크]
-    * [7. 자료구조,알고리즘,손코딩]
-    * [8. 정리]
+    * [1. 개요](https://github.com/defwdahyun0/TIL/blob/main/ComputerScience/CS_2021winterstudy_1.md)
+    * [2. 운영체제,시스템프로그래밍,컴퓨터구조](https://github.com/defwdahyun0/TIL/blob/main/ComputerScience/CS_2021winterstudy_2.md)
+    * [3. 운영체제,시스템프로그래밍,컴퓨터구조](https://github.com/defwdahyun0/TIL/blob/main/ComputerScience/CS_2021winterstudy_3.md)
+    * [4. 운영체제,시스템프로그래밍,컴퓨터구조](https://github.com/defwdahyun0/TIL/blob/main/ComputerScience/CS_2021winterstudy_4.md)
+    * [5. 데이터 베이스, RDBMS,NoSQL 중심](https://github.com/defwdahyun0/TIL/blob/main/ComputerScience/CS_2021winterstudy_5.md)
+    * [6. 컴퓨터 네트워크](https://github.com/defwdahyun0/TIL/blob/main/ComputerScience/CS_2021winterstudy_6.md)
+    * [7. 자료구조,알고리즘,손코딩](https://github.com/defwdahyun0/TIL/blob/main/ComputerScience/CS_2021winterstudy_7.md)
+    * [8. 정리](https://github.com/defwdahyun0/TIL/blob/main/ComputerScience/CS_2021winterstudy_8.md)
 
 ---
 ## Tools
