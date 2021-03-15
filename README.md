@@ -147,3 +147,4 @@
 * [C++ 강의](https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK)
 <br>
 강의는 빠르게 속독하고 기술에 대한 document를 참고하면서 실습
+토이 프로젝트 진행하기
