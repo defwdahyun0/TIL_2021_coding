@@ -145,6 +145,9 @@
 * [C 기초 - 모두코딩](https://modoocode.com/231)
 * [C 기초 - 코딩도장](https://dojang.io/course/view.php?id=2)
 * [C++ 강의](https://www.youtube.com/playlist?list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK)
+* [좋은 프론트엔드 개발자 칼럼](https://taegon.kim/archives/4810)
+* [C 터미널 컴파일](https://mannahjjang.tistory.com/31)
 <br>
+
 강의는 빠르게 속독하고 기술에 대한 document를 참고하면서 실습
 토이 프로젝트 진행하기
