@@ -31,7 +31,10 @@
 * 로그인 기능 구현
 
 ### Backend
-* [백엔드 기초 개념](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/backend_base.md)
+* [1. 기초 개념](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/backend_base.md)
+* [2.]
+* [3. 데이터베이스](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/backend_base.md)
+
 ### linux
 * [리눅스기초](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_base.md)
 * [리눅스c-coding](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_c_coding.md)
