@@ -2,18 +2,18 @@
 
 서버를 설명하기 위해, 식당의 예시를 들 수 있다.
 
-* 1. 손님 - 클라이언트
+* 손님 - 클라이언트
     * 클라이언트 종류 : Android, iOS, web
-* 2.서빙 - 웹서버 
+* 서빙 - 웹서버 
     * 요리를 전해주기도 하고, 손님한테 휴지를 건네주기도 한다.(서버 자체가 할 수 있는 일도 있음)(파일 다운, 이미지)
     * 서버 종류 : apache, nginx
     * 웹서버의 특징 
         * 1. n:1에서 n과 1이 바뀔 수 있다.
         * 2. 역할이 상대적이다.
         * 3. 서버 각 개인이 할 수 있는 일이 있다.
-* 3. 주방(요리사) - Backend language(BL)
+* 주방(요리사) - Backend language(BL)
     * BL 종류 : php, jsp, asp... node.js, spring
-* 4. 냉장고 - DB MS(database management system)
+* 냉장고 - DB MS(database management system)
     * 리소스, 데이터 저장, 통신으로 전달 가능
     * DBMS 종류 : mysql, oracle, mssql, mongoDB...
 
