@@ -27,8 +27,14 @@
 ## 프로젝트
 
 ### Frontend
+
 #### ReactNative
-* 로그인 기능 구현
+* 2021년 개발
+    * [link]
+
+#### Flutter
+* 2021년 공동 스터디
+    * [link]
 
 ### Backend
 * 2021년 봄 스터디 정리
@@ -40,6 +46,13 @@
    * [6.](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_6.md)
    * [7.](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_7.md)
    * [8.](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_8.md)
+
+### Bigdata, AI
+* 2021년 공동 스터디
+    * [link]
+
+* 2021년 공동 스터디
+    * [link]
 
 ### linux
 * [리눅스기초](https://github.com/defwdahyun0/TIL/blob/main/Project/linux/linux_base.md)
@@ -105,7 +118,18 @@
 
 ### React Native
 
-* 처음 배우는 리액트 네이티브 : 크로스 플랫폼 앱 개발을 위한 실전 입문서, 김범준 저.
+* 처음 배우는 리액트 네이티브 : 크로스 플랫폼 앱 개발을 위한 실전 입문서, 김범준 저. (모든 내용 기록x 읽으면서 중요하다 생각한 부분만 기록)
+    * [1.리액트네이티브]
+    * [2.시작]
+    * [3.컴포넌트]
+    * [4.스타일링]
+    * [5.할일관리어플]
+    * [6.Hooks]
+    * [7.ContextAPI]
+    * [8.내비게이션]
+    * [9.채팅어플리케이션]
+    * [10.배포]
+
 
 ---
 ## 알고리즘
