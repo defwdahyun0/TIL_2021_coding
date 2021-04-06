@@ -52,7 +52,9 @@ REST에는 아래와 같은 4개의 속성이 존재한다.
 
 REST에서는 자원에 접근 할 때 URI(Uniform Resource Identifier)로 하게 된다. URI는 자원의 위치를 나타내는 일종의 식별자인데, URI설계시 지켜야하는 설계규칙에 대해 살펴볼 것이다.
 
-/ 는 계층 관계를 나타내는 데 사용되며 마지막 문자로는 사용하지 않는다.
+#### (1) / 는 계층 관계를 나타내는 데 사용된다
+ex: http://www.happy-zoo/animals/dogs/john
+#### (2) 마지막 문자로는 사용하지 않는다.
 
 ```php
 /users/sangmin/ (x)
