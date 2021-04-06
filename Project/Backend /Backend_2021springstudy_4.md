@@ -109,8 +109,10 @@ Dao: 실질적인 sql 쿼리 작성. sql 파일을 dao 파일에 넣어서 실�
 ## 5. Validation (유효성 검증)
 검증을 통해서 바로 db에 들어가기 때문에, 맞지 않은 데이터는 걸러줌
 
-1) 형식적 validation: type, 빈값,(int string null 길이), 정규표현식(이메일, 전화번호 등등) : controller에서 해준다.
-2) 의미적 validation: 중복된 유저 아이디. 데이터베이스에 들어가서 있는지 확인후 출력. 확인 후 중복된 게 있으면 걸러내줌. service나 provider에서 해줘야 한다.
+### 1) 형식적 validation
+ type, 빈값,(int string null 길이), 정규표현식(이메일, 전화번호 등등) : controller에서 해준다.
+### 2) 의미적 validation
+ 중복된 유저 아이디. 데이터베이스에 들어가서 있는지 확인후 출력. 확인 후 중복된 게 있으면 걸러내줌. service나 provider에서 해줘야 한다.
 
 예시)
 회원가입, 이메일 주소를 입력할 때 123 -> 형식이 맞지 않는다.
