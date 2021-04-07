@@ -110,10 +110,10 @@ GET / members/soccer/345/photo HTTP/1.1 Host: restapi.example.com Accept: image/
 백엔드 언어의 구조는 다음과 같다고 생각할 수 있다.
 
 * route: 경로를 정해준다.
-    * controller: 동작을 컨트롤한다. 하위 서비스가 서로 기능을 공유할 때 컨트롤러를 거친다.
-        * service: insert,delete,update 주로 사용. select 사용할 때는 provider에서 가져와서 실행해야한다.
+    * controller: route paht-var query-string, body 받아오기. 하위 서비스가 서로 기능을 공유할 때 컨트롤러를 거친다.
+        * service: insert,delete,update 주로 사용. DB 연결 시에 사용한다. select 사용할 때는 provider에서 가져와서 실행해야한다.
         * provider: select 주로 사용.
-            * Dao: 실질적인 sql 쿼리를 작성한다. sql 파일을 dao 파일에 넣어서 실행후 위로 넘겨주어서 client가 볼 수 있게 한다.
+            * Dao: 실질적인 sql query를 실행한다. sql 파일을 dao 파일에 넣어서 실행후 위로 넘겨주어서 client가 볼 수 있게 한다. Rows.
 
 * php에는 route 파일이 없다. indexphp에서 그 역할을 대신한다.
 * node.js는 위 형식 따라간다.
