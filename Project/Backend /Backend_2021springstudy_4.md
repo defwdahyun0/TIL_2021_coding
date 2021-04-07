@@ -132,7 +132,8 @@ GET / members/soccer/345/photo HTTP/1.1 Host: restapi.example.com Accept: image/
 
 ## 6. 관리
 
-* 파일을 관리할 때는 도메인별로 해줘야 한다.
+파일을 관리할 때는 도메인별로 해줘야 한다.
+
 * 예시) 쿠팡: 상품별, 사용자별 분류
 
 * user 
