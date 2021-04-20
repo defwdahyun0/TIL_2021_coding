@@ -37,3 +37,13 @@ Spring / node.js / php 등 백엔드 언어는 굉장히 많다.
 
 ### DBMS (+DB)
 DBMS는 DataBase Management System의 약자로 MySQL / NoSQL 등이 있다.
+
+
+## OS
+
+OS는 window, ubuntu, ios, android, mac, linux 등이 있다.
+
+무료배포로 인한 오픈소스가 많기 때문에 대한민국에서는 window의 점유율이 높지만 전세계적으로는 linux의 점유율이 높음(70%)
+
+* 레드헷->centOS
+* 데미안->ubuntu(진입장벽 낮음, osupdate)
