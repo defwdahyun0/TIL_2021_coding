@@ -33,7 +33,7 @@
 * [21/01~03 키워드 알림 어플 개발](https://github.com/julie0005/Keyword_Notification)
 
 ### Backend
-* [21/03~05 백엔드 스터디]
+* [21/03~05 백엔드 스터디](https://github.com/defwdahyun0/TIL/blob/main/link/Backend_2021springstudy.md)
 
 #### Node.js
 * [21/03~04 네이버웹툰 클론코딩]
@@ -48,14 +48,14 @@
 ## 언어
 
 ### HTML+CSS
-* [HelloCoding HTML5+CSS3 교재 프로젝트 정리]
+* [HelloCoding HTML5+CSS3 교재 프로젝트 정리](https://github.com/defwdahyun0/TIL/blob/main/link/htmlcss_hellocoding.md)
 
 ### javascript
-* [생활코딩 자바스크립트 강의 정리]
+* [생활코딩 자바스크립트 강의 정리](https://github.com/defwdahyun0/TIL/blob/main/link/js_opentutorials.md)
 
 
 ### React Native
-* [처음 배우는 리액트 네이티브 : 크로스 플랫폼 앱 개발을 위한 실전 입문서, 김범준 저]
+* [처음 배우는 리액트 네이티브 : 크로스 플랫폼 앱 개발을 위한 실전 입문서, 김범준 저](https://github.com/defwdahyun0/TIL/blob/main/link/RN_my_first_rn.md)
 
 ### 파이썬
 * 코드잇 프로그래밍 기초 in Python 완강
@@ -65,11 +65,11 @@
 
 ---
 ## 알고리즘
-* [21/01~03 알고리즘 스터디]
+* [21/01~03 알고리즘 스터디](https://github.com/defwdahyun0/TIL/blob/main/link/PS_2021winterstudy.md)
 
 ---
 ## CS
-* [21/01~03 CS 스터디]
+* [21/01~03 CS 스터디](https://github.com/defwdahyun0/TIL/blob/main/link/CS_2021winterstudy.md)
 
 ---
 ## Tools
