@@ -20,7 +20,7 @@ REST API 설계 시 가장 중요한 항목은 다음의 2가지로 요약할 �
 
 **두 번째,** 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현한다.
 
-### **1) URI는 정보의 자원을 표현해야 한다. (리소스명은 동사보다는 명사를 사용)**
+#### **1) URI는 정보의 자원을 표현해야 한다. (리소스명은 동사보다는 명사를 사용)**
 
 URI는 자원을 표현하는데 중점을 두어야 한다. delete,block 등과 같은 행위에 대한 표현이 들어가면 안된다.
 
@@ -29,7 +29,7 @@ URI는 자원을 표현하는데 중점을 두어야 한다. delete,block 등과
 - 도메인/block/3 (x)
 - 도메인/blocked_user/3 (o)
 
-### 2) 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE 등)로 표현
+#### 2) 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE 등)로 표현
 
 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE, PATCH 등)로 표현할 수 있다.
 
@@ -48,7 +48,7 @@ ex)
 
 GET과 POST의 보안상의 차이가 있을까? 패킷의 header와 body에서 POST Method는 body에, GET Method은 header에 path variable에 넣을 뿐 보안상의 차이는 없다. 패킷 자체를 뺐기지 않는 것이 중요하다.
 
-### 3) URI 설계 시 주의할 점
+#### 3) URI 설계 시 주의할 점
 
 1) 슬래시 구분자(/)는 계층 관계를 나타내는 데 사용한다. 
 
@@ -62,7 +62,7 @@ GET과 POST의 보안상의 차이가 있을까? 패킷의 header와 body에서 
 
 6) 파일 확장자는 URI에 포함시키지 않는다.
 
-### 4) 리소스 간의 관계를 표현하는 방법
+#### 4) 리소스 간의 관계를 표현하는 방법
 
  /리소스명/리소스 ID/관계가 있는 다른 리소스명
     ex)    GET : /users/{userid}/devices (일반적으로 소유 ‘has’의 관계를 표현할 때)
@@ -71,7 +71,7 @@ GET과 POST의 보안상의 차이가 있을까? 패킷의 header와 body에서 
 
   GET : /users/{userid}/likes/devices (관계명이 애매하거나 구체적 표현이 필요할 때)
 
-### 5) 자원을 표현하는 Colllection과 Document (Path Variable의 구성)
+#### 5) 자원을 표현하는 Colllection과 Document (Path Variable의 구성)
 
 DOCUMENT는 문서, 컬렉션은 문서들의 집합, 객체들의 집합. 컬렉션과 도큐먼트는 모두 리소스라고 표현할 수 있으며 URI에 표현된다. 
 
