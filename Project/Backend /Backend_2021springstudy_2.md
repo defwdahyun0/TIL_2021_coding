@@ -1,4 +1,4 @@
-## localhost
+## Localhost
 
 컴퓨터 내에서 웹서버(Apache,ngnix..)를 동작시키면 127.0.0.1이라는 ip 주소에서 바로 확인해볼 수 있다.
 이 때 localhost가 동작하는 것인데, 나의 데스크탑에서만 확인해볼 수 있다. 
