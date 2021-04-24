@@ -55,7 +55,8 @@
 
 
 ### React Native
-* [처음 배우는 리액트 네이티브 : 크로스 플랫폼 앱 개발을 위한 실전 입문서, 김범준 저](https://github.com/defwdahyun0/TIL/blob/main/link/RN_my_first_rn.md)
+* [처음 배우는 리액트 네이티브 : 크로스 플랫폼 앱 개발을 위한 실전 입문서, 김범준 저 속독](https://github.com/defwdahyun0/TIL/blob/main/link/RN_my_first_rn.md)
+* [리액트 네이티브 공식 사이트 속독](https://reactnative.dev/) 
 
 ### 파이썬
 * 코드잇 프로그래밍 기초 in Python 완강
