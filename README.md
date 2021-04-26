@@ -36,7 +36,6 @@
 * [21/03~05 백엔드 스터디](https://github.com/defwdahyun0/TIL/blob/main/link/Backend_2021springstudy.md)
 
 #### Node.js
-* [21/03~04 네이버웹툰 클론코딩]
 
 #### Spring
 
