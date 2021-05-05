@@ -67,16 +67,11 @@
 - DB 상태를 변환시키는 하나의 논리적인 기능을 수행하기 위한 작업의 단위/ 한꺼번에 모두 수행되어야 할 일련의 연산들
 - http method를 예시로 들면, put patch post delete(get x) 은 DB 상태를 변환시킬 수 있다.
 - 계좌 입금 예시
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0e7cacdb-aa07-46b5-992b-9b0c42613d7c/_2021-05-04__3.40.41.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0e7cacdb-aa07-46b5-992b-9b0c42613d7c/_2021-05-04__3.40.41.png)
-
     - 만약 입금을 하는데 과정 중간에 오류가 나면, 입금이 안됐는데 인출만 되는 상황이 발생한다.
     - 이러한 불상사를 예방하기 위해 처음으로 원상 복구를 해줘야 하는데, 이 과정이 transaction이다.
     - transaction이 진행되면 실행 전과 실행 후의 DB의 차이가 없어진다.
 
 ## Commit, Rollback
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b363cfb9-94b1-4c2f-a54d-6cfd08bbb856/_2021-05-04__3.45.16.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b363cfb9-94b1-4c2f-a54d-6cfd08bbb856/_2021-05-04__3.45.16.png)
 
 - Commit으로 프로젝트를 수행한다.
 - Rollback을 통해 이전에 Commit했던 지점으로 돌아가서 상태를 원상 복귀 시킬 수 있다.
