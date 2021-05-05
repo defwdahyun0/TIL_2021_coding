@@ -1,4 +1,4 @@
-# Token, Paging, Local Storage
+# Token, Local Storage, Paging
 
 ## Token
 
@@ -62,10 +62,10 @@
         - 무한 스크롤 기능을 구현할 때 페이징 기술이 특히 중요하다.
 - 페이지 카운터: 총 게시물 개수/한 페이지당 개수 = 페이지 수
 
-## Transaction 트랜젝션
+## Transaction
 
 - DB 상태를 변환시키는 하나의 논리적인 기능을 수행하기 위한 작업의 단위/ 한꺼번에 모두 수행되어야 할 일련의 연산들
-- http method를 예시로 들면, put patch post delete(get x) 은 DB 상태를 변환시킬 수 있다.
+- http method를 예시로 들면, put patch post delete (get x) 은 DB 상태를 변환시킬 수 있다.
 - 계좌 입금 예시
     - 만약 입금을 하는데 과정 중간에 오류가 나면, 입금이 안됐는데 인출만 되는 상황이 발생한다.
     - 이러한 불상사를 예방하기 위해 처음으로 원상 복구를 해줘야 하는데, 이 과정이 transaction이다.
