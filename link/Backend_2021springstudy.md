@@ -5,5 +5,5 @@
    * [4.API](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_4.md)
    * [5.Restful API](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_5.md)
    * [6.Web Frontend](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_6.md)
-   * [7.](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_7.md)
+   * [7.Token, Paging, Local Storage](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_7.md)
    * [8.](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_8.md)
