@@ -6,4 +6,4 @@
    * [5.Restful API](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_5.md)
    * [6.Web Frontend](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_6.md)
    * [7.Token, Local Storage, Paging](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_7.md)
-   * [8.Regex, Test Env, Social Token, In-app Billing, etc](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_8.md)
+   * [8.Regex, Test Env, Social Token, In-app Billing](https://github.com/defwdahyun0/TIL/blob/main/Project/Backend%20/Backend_2021springstudy_8.md)
