@@ -28,30 +28,23 @@
 
 | **Type** | **Date** | **Contents** | **Organization** | **Repository** |
 |:--------|:--------|:--------|:--------|:--------|
-| **🎓 Education** | 2019.03 ~ 2023.07 | B.S. Department of  Software and Computer Engineering & <br> B.S. Department of Electronics | **Ajou Univ.** | private |
+| **🎓 Education** | 2019.03 ~ 2023.07 | B.S. Department of  Software and Computer Engineering | **Ajou Univ.** | private |
+| **🎓 Education** | 2019.03 ~ 2023.07 | B.S. Department of Electronics | **Ajou Univ.** | private |
 
 
 ---
 ## 프로젝트
 
-### Collaborate
 | **Type** | **Date** | **Contents** | **Organization** | **Repository** |
 |:--------|:--------|:--------|:--------|:--------|
-| **Collaborate** | 2019.03 ~ 2023.07 | Node.js Airbnb Clone Coding | hi | private |
-| **Collaborate** | 2019.03 ~ 2023.07 | ReactNative Keyword App Coding | DJC | private |
-
-### Toy
-| **Type** | **Date** | **Contents** | **Organization** | **Repository** |
-|:--------|:--------|:--------|:--------|:--------|
-| **Toy** | 2021.05 | Node.js NaverWebtoon Clone Coding | hi | private |
-| **Toy** | 2020.06 ~ 2020.11 | SpringBoot Web basic | hi | private |
-
-### Major
-| **Type** | **Date** | **Contents** | **Organization** | **Repository** |
-|:--------|:--------|:--------|:--------|:--------|
-| **Major** | 2020.06 ~ 2020.11 | Robot Programming In RobotC | **Ajou Univ.** | private |
+| **Collaborate** | 2021.04 ~ 2021.11 | findmap | hi~aitchi~ | private |
+| **Collaborate** | 2021.04 ~ 2021.11 | bookcode | hi~aitchi~ | private |
+| **Collaborate** | 2021.05 | Node.js Airbnb Clone Coding | hi~aitchi~ | private |
+| **Toy** | 2021.03 ~ 2021.05 | Node.js NaverWebtoon Clone Coding | hi~aitchi~| private |
+| **Collaborate** | 2021.01 ~ 2021.03 | ReactNative Keyword App Coding | DJC | private |
+| **Major** | 2020.09 ~ 2020.12 | Robot Programming In RobotC | **Ajou Univ.** | private |
+| **Toy** | 2020.04 ~ 2020.05 | SpringBoot Web basic | hi~aitchi~ | private |
 | **Major** | 2020.06 ~ 2020.11 | Linux | **Ajou Univ.** | private |
-
 
 ---
 ## 학습
