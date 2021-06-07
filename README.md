@@ -18,6 +18,7 @@
 
 * **Today I Learned Repository로 매일 공부한 것을 기록하다가, 폴더를 분리했습니다.**
 * 미처 생각 못 하고 빠뜨린 부분이 있을 수 있습니다. 
+* 읽기만 하고 정리 하지 않은 책/인강은 우선 적지 않았습니다.
 * 계속해서 update될 예정입니다.
 
 ---
@@ -39,25 +40,23 @@
 | **Collaborate** | 2021.05 | Node.js Airbnb Clone Coding | hi~aitchi~ | private |
 | **Toy** | 2021.03 ~ 2021.05 | Node.js NaverWebtoon Clone Coding | hi~aitchi~| private |
 | **Collaborate** | 2021.01 ~ 2021.03 | ReactNative Keyword App Coding | DJC | private |
-| **Major** | 2020.09 ~ 2020.12 | Robot Programming In RobotC | **Ajou Univ.** | private |
+| **Major** | 2020.09 ~ 2020.12 | Robot Programming In RobotC | Ajou Univ. | private |
 | **Toy** | 2020.04 ~ 2020.05 | SpringBoot Web basic | hi~aitchi~ | private |
-| **Major** | 2020.06 ~ 2020.11 | Linux | **Ajou Univ.** | private |
-
 ---
 ## 스터디
 
 | **Type** | **Date** | **Contents** | **Organization** | **Repository** |
 |:--------|:--------|:--------|:--------|:--------|
-| **Toy** | 2021.04 | Gitrini | inflearn | private |
-| **Toy** | 2021.04 | 개발자를 위한 SQL 데이터베이스 | codeit | private |
-| **Toy** | 2021.03 | 프로그래밍 기초 in Python | codeit | private |
+| **OnlineClass** | 2021.04 | Gitrini | inflearn | private |
+| **OnlineClass** | 2021.04 | 개발자를 위한 SQL 데이터베이스 | codeit | private |
+| **OnlineClass** | 2021.03 | 프로그래밍 기초 in Python | codeit | private |
 | **Collaborate** | 2021.03 ~ 2021.05 | 대학생 코딩캠프 | hi~aitchi~| private |
 | **Collaborate** | 2021.03 ~ 2021.05 | Backend Study | hi~aitchi~ | private |
 | **Collaborate** | 2021.01 ~ 2021.03 | Computer Science Study | DJC | private |
 | **Collaborate** | 2021.01 ~ 2021.03 | Problem Solving Study | DJC | private |
-| **Toy** | 2021.01~2021.03 | ReactNative | hi~aitchi~ | private |
-| **Toy** | 2021.01 | JavaScript | hi~aitchi~ | private |
-| **Toy** | 2019.08 | HTML,CSS | hi~aitchi~ | private |
+| **Book** | 2021.01~2021.03 | ReactNative | hi~aitchi~ | private |
+| **OnlineClass** | 2021.01 | JavaScript | opentutorials | private |
+| **Book** | 2019.08 | HTML,CSS | hi~aitchi~ | private |
 ### HTML+CSS
 * [HelloCoding HTML5+CSS3 교재 프로젝트 정리](https://github.com/defwdahyun0/TIL/blob/main/link/htmlcss_hellocoding.md)
 
