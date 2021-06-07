@@ -40,7 +40,6 @@
 | **Collaborate** | 2021.04 ~ 2021.11 | findmap | hi~aitchi~ | private |
 | **Collaborate** | 2021.04 ~ 2021.11 | bookcode | hi~aitchi~ | private |
 | **Collaborate** | 2021.05 | Node.js Airbnb Clone Coding | hi~aitchi~ | private |
-| **Toy** | 2021.03 ~ 2021.05 | 대학생 코딩캠프 | hi~aitchi~| private |
 | **Toy** | 2021.03 ~ 2021.05 | Node.js NaverWebtoon Clone Coding | hi~aitchi~| private |
 | **Collaborate** | 2021.01 ~ 2021.03 | ReactNative Keyword App Coding | DJC | private |
 | **Major** | 2020.09 ~ 2020.12 | Robot Programming In RobotC | **Ajou Univ.** | private |
@@ -58,6 +57,7 @@
 | **Toy** | 2021.04 | Gitrini | inflearn | private |
 | **Toy** | 2021.04 | 개발자를 위한 SQL 데이터베이스 | codeit | private |
 | **Toy** | 2021.03 | 프로그래밍 기초 in Python | codeit | private |
+| **Collaborate** | 2021.03 ~ 2021.05 | 대학생 코딩캠프 | hi~aitchi~| private |
 | **Collaborate** | 2021.03 ~ 2021.05 | Backend Study | hi~aitchi~ | private |
 | **Collaborate** | 2021.01 ~ 2021.03 | Computer Science Study | DJC | private |
 | **Collaborate** | 2021.01 ~ 2021.03 | Problem Solving Study | DJC | private |
