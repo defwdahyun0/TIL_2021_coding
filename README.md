@@ -40,6 +40,7 @@
 | **Collaborate** | 2021.04 ~ 2021.11 | findmap | hi~aitchi~ | private |
 | **Collaborate** | 2021.04 ~ 2021.11 | bookcode | hi~aitchi~ | private |
 | **Collaborate** | 2021.05 | Node.js Airbnb Clone Coding | hi~aitchi~ | private |
+| **Toy** | 2021.03 ~ 2021.05 | 대학생 코딩캠프 | hi~aitchi~| private |
 | **Toy** | 2021.03 ~ 2021.05 | Node.js NaverWebtoon Clone Coding | hi~aitchi~| private |
 | **Collaborate** | 2021.01 ~ 2021.03 | ReactNative Keyword App Coding | DJC | private |
 | **Major** | 2020.09 ~ 2020.12 | Robot Programming In RobotC | **Ajou Univ.** | private |
@@ -47,8 +48,22 @@
 | **Major** | 2020.06 ~ 2020.11 | Linux | **Ajou Univ.** | private |
 
 ---
-## 학습
+## 스터디
 
+| **Type** | **Date** | **Contents** | **Organization** | **Repository** |
+|:--------|:--------|:--------|:--------|:--------|
+| **Collaborate** | 2021.04 ~ 2021.11 | findmap | hi~aitchi~ | private |
+| **Collaborate** | 2021.04 ~ 2021.11 | bookcode | hi~aitchi~ | private |
+| **Collaborate** | 2021.05 | Node.js Airbnb Clone Coding | hi~aitchi~ | private |
+| **Toy** | 2021.04 | Gitrini | inflearn | private |
+| **Toy** | 2021.04 | 개발자를 위한 SQL 데이터베이스 | codeit | private |
+| **Toy** | 2021.03 | 프로그래밍 기초 in Python | codeit | private |
+| **Collaborate** | 2021.03 ~ 2021.05 | Backend Study | hi~aitchi~ | private |
+| **Collaborate** | 2021.01 ~ 2021.03 | Computer Science Study | DJC | private |
+| **Collaborate** | 2021.01 ~ 2021.03 | Problem Solving Study | DJC | private |
+| **Toy** | 2021.01~2021.03 | ReactNative | hi~aitchi~ | private |
+| **Toy** | 2021.01 | JavaScript | hi~aitchi~ | private |
+| **Toy** | 2019.08 | HTML,CSS | hi~aitchi~ | private |
 ### HTML+CSS
 * [HelloCoding HTML5+CSS3 교재 프로젝트 정리](https://github.com/defwdahyun0/TIL/blob/main/link/htmlcss_hellocoding.md)
 
@@ -60,13 +75,6 @@
 * [처음 배우는 리액트 네이티브 : 크로스 플랫폼 앱 개발을 위한 실전 입문서, 김범준 저 속독](https://github.com/defwdahyun0/TIL/blob/main/link/RN_my_first_rn.md)
 * [리액트 네이티브 공식 사이트 속독](https://reactnative.dev/) 
 
-### 파이썬
-* 코드잇 프로그래밍 기초 in Python
-* 코드잇 프로그래밍 중급 in Python
-
-### SQL
-* 코드잇 개발자를 위한 SQL 데이터베이스
-
 ---
 ## 알고리즘
 * [21/01~03 알고리즘 스터디](https://github.com/defwdahyun0/TIL/blob/main/link/PS_2021winterstudy.md)
@@ -75,7 +83,3 @@
 ## CS
 * [21/01~03 CS 스터디](https://github.com/defwdahyun0/TIL/blob/main/link/CS_2021winterstudy.md)
 
----
-## Tools
-* 코드잇 Git으로 배우는 버전관리
-* 코드잇 유닉스 커맨드 라인
