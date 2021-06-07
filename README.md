@@ -4,7 +4,7 @@
 ---
 ## 목차
 
-* [작성 규칙](#작성-규칙)
+* [작성-규칙](#작성-규칙)
 * [전공](#전공)
 * [프로젝트](#프로젝트)
 * [언어](#언어)
@@ -17,11 +17,8 @@
 ## 작성 규칙
 
 * **Today I Learned Repository로 매일 공부한 것을 기록하다가, 폴더를 분리했습니다.**
-* 언어 공부 파일은 git에만 기록하고 링크를 가져온다.
-* 학교 수업 내용은 다른 repository에 정리한다.
-* 비슷한 내용을 작성하게 될 때는 기존 파일을 수정하기보다는 새로 파일을 만들어 작성한다.
-* 날짜는 commit에 기록하되 집착하지 않는다. 날짜보다도 공부 내용을 기록하는 것이 주목적이기 때문이다.
-* reference를 명시하고, 자료를 그대로 가져오지 않고 스스로 자세히 작성한다.
+* 미처 생각 못 하고 빠뜨린 부분이 있을 수 있습니다. 
+* 계속해서 update될 예정입니다.
 
 ---
 ## 전공
@@ -51,9 +48,6 @@
 
 | **Type** | **Date** | **Contents** | **Organization** | **Repository** |
 |:--------|:--------|:--------|:--------|:--------|
-| **Collaborate** | 2021.04 ~ 2021.11 | findmap | hi~aitchi~ | private |
-| **Collaborate** | 2021.04 ~ 2021.11 | bookcode | hi~aitchi~ | private |
-| **Collaborate** | 2021.05 | Node.js Airbnb Clone Coding | hi~aitchi~ | private |
 | **Toy** | 2021.04 | Gitrini | inflearn | private |
 | **Toy** | 2021.04 | 개발자를 위한 SQL 데이터베이스 | codeit | private |
 | **Toy** | 2021.03 | 프로그래밍 기초 in Python | codeit | private |
