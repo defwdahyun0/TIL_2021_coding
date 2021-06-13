@@ -57,22 +57,3 @@
 | **Book** | 2021.01~2021.03 | ReactNative | hi~aitchi~ | private |
 | **OnlineClass** | 2021.01 | JavaScript | opentutorials | private |
 | **Book** | 2019.08 | HTML,CSS | hi~aitchi~ | private |
-### HTML+CSS
-* [HelloCoding HTML5+CSS3 교재 프로젝트 정리](https://github.com/defwdahyun0/TIL/blob/main/link/htmlcss_hellocoding.md)
-
-### javascript
-* [생활코딩 자바스크립트 강의 정리](https://github.com/defwdahyun0/TIL/blob/main/link/js_opentutorials.md)
-
-
-### React Native
-* [처음 배우는 리액트 네이티브 : 크로스 플랫폼 앱 개발을 위한 실전 입문서, 김범준 저 속독](https://github.com/defwdahyun0/TIL/blob/main/link/RN_my_first_rn.md)
-* [리액트 네이티브 공식 사이트 속독](https://reactnative.dev/) 
-
----
-## 알고리즘
-* [21/01~03 알고리즘 스터디](https://github.com/defwdahyun0/TIL/blob/main/link/PS_2021winterstudy.md)
-
----
-## CS
-* [21/01~03 CS 스터디](https://github.com/defwdahyun0/TIL/blob/main/link/CS_2021winterstudy.md)
-
