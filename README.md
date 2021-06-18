@@ -38,8 +38,15 @@
 | **Collaborate** | 2021.05 | Node.js Airbnb Clone Coding | hi~aitchi~ | private |
 | **Toy** | 2021.03 ~ 2021.05 | Node.js NaverWebtoon Clone Coding | hi~aitchi~| private |
 | **Collaborate** | 2021.01 ~ 2021.03 | ReactNative Keyword App Coding | DJC | private |
-| **Major** | 2020.09 ~ 2020.12 | Robot Programming In RobotC | Ajou Univ. | private |
 | **Toy** | 2020.04 ~ 2020.05 | SpringBoot Web basic | hi~aitchi~ | private |
+
+---
+## 전공 프로젝트
+
+| **Type** | **Date** | **Contents** | **Organization** | **Repository** |
+|:--------|:--------|:--------|:--------|:--------|
+| **Major** | 2020.09 ~ 2020.12 | Robot Programming In RobotC | Ajou Univ. | private |
+
 ---
 ## 스터디
 
