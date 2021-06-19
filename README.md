@@ -15,7 +15,7 @@
 
 * **Today I Learned Repository로 매일 공부한 것을 기록하다가, 폴더를 분리했습니다.**
 * 미처 생각 못 하고 빠뜨린 부분이 있을 수 있습니다. 
-* 전공책은 기록하지 않았습니다. 
+* 전공책/전공프로젝트는 기록하지 않았습니다. [Lectures Repository](https://github.com/defwdahyun0/Lectures) 참고 부탁드립니다. (현재는 private입니다.)
 * 정리하지 않은 책/인강 또한 기록하지 않았습니다.
 * 계속해서 update될 예정입니다.
 
