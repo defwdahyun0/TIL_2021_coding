@@ -41,13 +41,6 @@
 | **Toy** | 2020.04 ~ 2020.05 | SpringBoot Web basic | hi~aitchi~ | private |
 
 ---
-## 전공 프로젝트
-
-| **Type** | **Date** | **Contents** | **Organization** | **Repository** |
-|:--------|:--------|:--------|:--------|:--------|
-| **Major** | 2020.09 ~ 2020.12 | Robot Programming In RobotC | Ajou Univ. | private |
-
----
 ## 스터디
 
 | **Type** | **Date** | **Contents** | **Organization** | **Repository** |
