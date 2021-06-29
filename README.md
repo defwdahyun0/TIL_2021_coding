@@ -24,8 +24,8 @@
 
 | **Type** | **Date** | **Contents** | **Organization** | **Repository** |
 |:--------|:--------|:--------|:--------|:--------|
-| **🎓 Education** | 2019.03 ~ 2023.07 | B.S. Department of  Software and Computer Engineering | **Ajou Univ.** | private |
-| **🎓 Education** | 2019.03 ~ 2023.07 | B.S. Department of Electronics | **Ajou Univ.** | private |
+| **🎓 Education** | 2019.03 ~ 2023.07 | B.S. Department of  Software and Computer Engineering | Ajou Univ. | private |
+| **🎓 Education** | 2019.03 ~ 2023.07 | B.S. Department of Electronics | Ajou Univ. | private |
 
 
 ---
